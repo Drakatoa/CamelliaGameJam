@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1736720373
+::res://::1736722816
 Ability.gd::GDScript::-1::1736675233::0::1::::Ability<>Node<>::
 Boss_Room_background_Foreground.png::CompressedTexture2D::5911067342800368808::1736673975::1736673976::1::::<><>::
 Boss_Room_Background_Placeholder.png::CompressedTexture2D::4041163820874307917::1736667713::1736667714::1::::<><>::
-CharacterBody2D.gd::GDScript::-1::1736677866::0::1::::<>CharacterBody2D<>::
-character_body_2d.tscn::PackedScene::6721464353548845444::1736678115::0::1::::<><>::res://CharacterBody2D.gd<>uid://cjhswmrd3oha2::::res://Idle_0000.png<>uid://b0gp8r26m3jj0::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0000.png<>uid://4nklox4bc4f7::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0001.png<>uid://b3biknn6ytorq::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0002.png<>uid://dcqu3p3factcw::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0003.png<>uid://djpelscgg4t8b::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0004.png<>uid://b8qaobd230vr::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0005.png<>uid://cvag41q8ja6at::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0006.png<>uid://bges81l8tlhpd::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0007.png<>uid://5btrjilqf6e::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0008.png<>uid://bcoqidis6memw::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0009.png<>uid://dnptggn5h0des::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0010.png<>uid://cd1cec2ohv171::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0011.png<>uid://cihv21tdu6djd::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0012.png<>uid://d2f2xb4bpltii::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0013.png<>uid://d3vhpvohuqhi1::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0014.png<>uid://ro86ya10demx::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0015.png<>uid://dccco3nhn2vqj::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0016.png<>uid://0r2yb1a00ejq::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0017.png<>uid://bim82xsw8dsg3::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0018.png<>uid://boe6b0mre7gtd::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0019.png<>uid://c3oxmuj7on18v::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0020.png<>uid://co2u7obecx8gy::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0021.png<>uid://c4m0rec78p5x1::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0022.png<>uid://c2ux5dchduhmk::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0023.png<>uid://bkfx3urvxecau::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0000.png<>uid://yyqip5ovity4::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0000.png<>uid://cb0egxfj8mony::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0000.png<>uid://bkxwr4gkd8nns::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0001.png<>uid://b0w8sqjeheci1::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0001.png<>uid://bic7qgkk5xmbq::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0001.png<>uid://cm5p2bxttooo3::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0002.png<>uid://v5ur4s4j3tv8::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0002.png<>uid://8cce8h5ou7mp::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0002.png<>uid://wxjcp3n7l2mo::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0003.png<>uid://nr8b7rqim88n::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0003.png<>uid://di50kcopjneir::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0003.png<>uid://gdiesjg1dcfl::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0004.png<>uid://bltwaetq7ify6::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0004.png<>uid://bd7jc862tu3n5::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0004.png<>uid://c747jxjui76eh::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0005.png<>uid://dgf15k67n0fdk::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0005.png<>uid://dp160elslg4l1::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0005.png<>uid://odu8vk6nhova::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0006.png<>uid://dw3yi22dmkb7u::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0006.png<>uid://b1u3qcr4wyt4c::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0006.png<>uid://oasl3txmaiw7::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0007.png<>uid://dl4nsfomh73y::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0007.png<>uid://dcfdqp6lj3cd3::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0007.png<>uid://dx3ixyl47qkbs::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0008.png<>uid://cn6qje4xeghxa::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0008.png<>uid://c82qg8akfshvx::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0008.png<>uid://dhfwnqoe21vf6::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0009.png<>uid://ddktnnx3vaocx::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0009.png<>uid://bfqq6ymxsp1pj::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0009.png<>uid://db7uj3hle7eks::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0010.png<>uid://d3gbutm18cfrk::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0010.png<>uid://bqvl5vx678dum::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0010.png<>uid://b0r2qnjk472wk::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0011.png<>uid://bo0687oni270c::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0011.png<>uid://cyupy7gex86dv::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0011.png<>uid://0go78pnu5f06::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0012.png<>uid://chq8iej4a0upx::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0012.png<>uid://dgh62v63nfl3c::::res://Upscaled Animations/Left/Running Left/Running Left_0000.png<>uid://ck5vo68uom0oo::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0013.png<>uid://c4no2do7jc4x3::::res://Upscaled Animations/Left/Running Left/Running Left_0001.png<>uid://bgtqw8wd14taw::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0013.png<>uid://blb3nncuvsfwi::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0014.png<>uid://b77g5hkxxeibw::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0014.png<>uid://bnjwsfhc6ac4::::res://Upscaled Animations/Left/Running Left/Running Left_0002.png<>uid://kckiqg4i26r8::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0015.png<>uid://di063sgx3o2ax::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0015.png<>uid://c6jy0hp3dn0yv::::res://Upscaled Animations/Left/Running Left/Running Left_0003.png<>uid://c21mebf7x47kc::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0016.png<>uid://dfp7lqed8b7g4::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0016.png<>uid://ck61qmefhqxdi::::res://Upscaled Animations/Left/Running Left/Running Left_0004.png<>uid://57clh5co2y7n::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0017.png<>uid://dbmeip6ocsi5h::::res://Upscaled Animations/Left/Running Left/Running Left_0005.png<>uid://c46qc6b6bok0::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0017.png<>uid://cubaj704ndh35::::res://Upscaled Animations/Left/Running Left/Running Left_0006.png<>uid://0a5dhxxrxyu2::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0018.png<>uid://bjninggc84qmo::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0018.png<>uid://db26q0p0knjbd::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0019.png<>uid://ue2kp38w8oyl::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0019.png<>uid://sohqdl3ueev6::::res://Upscaled Animations/Left/Running Left/Running Left_0007.png<>uid://b5c6bm6kwmvl3::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0020.png<>uid://ch6fsgah7qhug::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0020.png<>uid://5aqsfj6qc64m::::res://Upscaled Animations/Left/Running Left/Running Left_0008.png<>uid://cn6p7ddmekie1::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0021.png<>uid://chfhck8o20s4g::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0021.png<>uid://dyfkxu1krs0tc::::res://Upscaled Animations/Left/Running Left/Running Left_0009.png<>uid://dragdskiqfvx8::::res://Upscaled Animations/Left/Running Left/Running Left_0010.png<>uid://bb0a5hlk6whfd::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0022.png<>uid://bjsj10ajmp8xv::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0022.png<>uid://crnyc3p01uqta::::res://Upscaled Animations/Left/Running Left/Running Left_0011.png<>uid://c1qv2bgpdov45::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0023.png<>uid://eelxnwadphsn::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0023.png<>uid://dt2r348dmp7tg::::res://Upscaled Animations/Right/Running Right/Running Right_0000.png<>uid://lv31bhif3ywe::::res://Upscaled Animations/Right/Running Right/Running Right_0001.png<>uid://clntbpanp2o3s::::res://Upscaled Animations/Right/Running Right/Running Right_0002.png<>uid://cllalg6hluihd::::res://Upscaled Animations/Right/Running Right/Running Right_0003.png<>uid://cb3klfy8uu3ds::::res://Upscaled Animations/Right/Running Right/Running Right_0004.png<>uid://61ya5evb31rw::::res://Upscaled Animations/Right/Running Right/Running Right_0005.png<>uid://dv3xa0ohwy16s::::res://Upscaled Animations/Right/Running Right/Running Right_0006.png<>uid://ckwlmqj2ee5ch::::res://Upscaled Animations/Right/Running Right/Running Right_0007.png<>uid://ueepwulssak4::::res://Upscaled Animations/Right/Running Right/Running Right_0008.png<>uid://beigqdb41i5ev::::res://Upscaled Animations/Right/Running Right/Running Right_0009.png<>uid://pju8rsxthhoo::::res://Upscaled Animations/Right/Running Right/Running Right_0010.png<>uid://c1vfagdm0i05f::::res://Upscaled Animations/Right/Running Right/Running Right_0011.png<>uid://c7rmrmv47k0kf::::res://Upscaled Animations/Up/Running Up/Running Up_0000.png<>uid://d3lmht382u7wk::::res://Upscaled Animations/Up/Running Up/Running Up_0001.png<>uid://to62s1t3shej::::res://Upscaled Animations/Up/Running Up/Running Up_0002.png<>uid://dgg1fxdew6bom::::res://Upscaled Animations/Up/Running Up/Running Up_0003.png<>uid://4bc4iymihfjl::::res://Upscaled Animations/Up/Running Up/Running Up_0004.png<>uid://g5qvjpskw8br::::res://Upscaled Animations/Up/Running Up/Running Up_0005.png<>uid://uc16unw8x6sh::::res://Upscaled Animations/Up/Running Up/Running Up_0006.png<>uid://bbgcoklkr3081::::res://Upscaled Animations/Up/Running Up/Running Up_0007.png<>uid://bqxxcvati1e2v::::res://Upscaled Animations/Up/Running Up/Running Up_0008.png<>uid://ku5kl5aggghg::::res://Upscaled Animations/Up/Running Up/Running Up_0009.png<>uid://cf3pv1s3tkwti::::res://Upscaled Animations/Up/Running Up/Running Up_0010.png<>uid://jeme5sy3anl6::::res://Upscaled Animations/Up/Running Up/Running Up_0011.png<>uid://bwuo3pvnsli3p::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0000.png<>uid://b3p0xgx8nga5b::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0001.png<>uid://ctxhqutn4erec::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0002.png<>uid://bvhsff0u74ppc::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0003.png<>uid://dcws2dobdw3r8::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0004.png<>uid://bqjx0d8qqc3v7::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0005.png<>uid://dwsbdkoyddaj3::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0006.png<>uid://bt2yoadig51e8::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0007.png<>uid://dof20j5dtpyej::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0008.png<>uid://bimeseai5h4ih::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0009.png<>uid://d4bq8ntdcmohg::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0010.png<>uid://bj587rc5skoqg::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0011.png<>uid://c5uycj5mpkvto::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0012.png<>uid://dc48enej85yxe::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0013.png<>uid://dhy8w5j3mro4n::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0014.png<>uid://cl8lprd0150s6::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0015.png<>uid://6o7bleuwcfyk::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0016.png<>uid://cmoouoe1j35dh::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0017.png<>uid://b2mwytnva3ak1::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0018.png<>uid://blwx01ggtw68c::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0019.png<>uid://d3glddpdxsm13::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0020.png<>uid://c3q57losa3f4k::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0021.png<>uid://bxmp54u3w65f::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0022.png<>uid://e4gc3ks7cn65::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0023.png<>uid://qsy7qm8s0wgh::::res://New/Upscaled Assets/Shadow.png
+CharacterBody2D.gd::GDScript::-1::1736722705::0::1::::<>CharacterBody2D<>::
+character_body_2d.tscn::PackedScene::6721464353548845444::1736722816::0::1::::<><>::res://CharacterBody2D.gd<>uid://cjhswmrd3oha2::::res://Idle_0000.png<>uid://b0gp8r26m3jj0::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0000.png<>uid://4nklox4bc4f7::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0001.png<>uid://b3biknn6ytorq::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0002.png<>uid://dcqu3p3factcw::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0003.png<>uid://djpelscgg4t8b::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0004.png<>uid://b8qaobd230vr::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0005.png<>uid://cvag41q8ja6at::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0006.png<>uid://bges81l8tlhpd::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0007.png<>uid://5btrjilqf6e::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0008.png<>uid://bcoqidis6memw::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0009.png<>uid://dnptggn5h0des::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0010.png<>uid://cd1cec2ohv171::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0011.png<>uid://cihv21tdu6djd::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0012.png<>uid://d2f2xb4bpltii::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0013.png<>uid://d3vhpvohuqhi1::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0014.png<>uid://ro86ya10demx::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0015.png<>uid://dccco3nhn2vqj::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0016.png<>uid://0r2yb1a00ejq::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0017.png<>uid://bim82xsw8dsg3::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0018.png<>uid://boe6b0mre7gtd::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0019.png<>uid://c3oxmuj7on18v::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0020.png<>uid://co2u7obecx8gy::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0021.png<>uid://c4m0rec78p5x1::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0022.png<>uid://c2ux5dchduhmk::::res://Upscaled Animations/Forward/Idle Forward/Idle Forward_0023.png<>uid://bkfx3urvxecau::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0000.png<>uid://yyqip5ovity4::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0000.png<>uid://cb0egxfj8mony::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0000.png<>uid://bkxwr4gkd8nns::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0001.png<>uid://b0w8sqjeheci1::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0001.png<>uid://bic7qgkk5xmbq::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0001.png<>uid://cm5p2bxttooo3::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0002.png<>uid://v5ur4s4j3tv8::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0002.png<>uid://8cce8h5ou7mp::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0002.png<>uid://wxjcp3n7l2mo::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0003.png<>uid://nr8b7rqim88n::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0003.png<>uid://di50kcopjneir::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0003.png<>uid://gdiesjg1dcfl::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0004.png<>uid://bltwaetq7ify6::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0004.png<>uid://bd7jc862tu3n5::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0004.png<>uid://c747jxjui76eh::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0005.png<>uid://dgf15k67n0fdk::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0005.png<>uid://dp160elslg4l1::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0005.png<>uid://odu8vk6nhova::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0006.png<>uid://dw3yi22dmkb7u::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0006.png<>uid://b1u3qcr4wyt4c::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0006.png<>uid://oasl3txmaiw7::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0007.png<>uid://dl4nsfomh73y::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0007.png<>uid://dcfdqp6lj3cd3::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0007.png<>uid://dx3ixyl47qkbs::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0008.png<>uid://cn6qje4xeghxa::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0008.png<>uid://c82qg8akfshvx::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0008.png<>uid://dhfwnqoe21vf6::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0009.png<>uid://ddktnnx3vaocx::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0009.png<>uid://bfqq6ymxsp1pj::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0009.png<>uid://db7uj3hle7eks::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0010.png<>uid://d3gbutm18cfrk::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0010.png<>uid://bqvl5vx678dum::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0010.png<>uid://b0r2qnjk472wk::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0011.png<>uid://bo0687oni270c::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0011.png<>uid://cyupy7gex86dv::::res://Upscaled Animations/Forward/Forward Run/Forward Run_0011.png<>uid://0go78pnu5f06::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0012.png<>uid://chq8iej4a0upx::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0012.png<>uid://dgh62v63nfl3c::::res://Upscaled Animations/Left/Running Left/Running Left_0000.png<>uid://ck5vo68uom0oo::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0013.png<>uid://c4no2do7jc4x3::::res://Upscaled Animations/Left/Running Left/Running Left_0001.png<>uid://bgtqw8wd14taw::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0013.png<>uid://blb3nncuvsfwi::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0014.png<>uid://b77g5hkxxeibw::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0014.png<>uid://bnjwsfhc6ac4::::res://Upscaled Animations/Left/Running Left/Running Left_0002.png<>uid://kckiqg4i26r8::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0015.png<>uid://di063sgx3o2ax::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0015.png<>uid://c6jy0hp3dn0yv::::res://Upscaled Animations/Left/Running Left/Running Left_0003.png<>uid://c21mebf7x47kc::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0016.png<>uid://dfp7lqed8b7g4::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0016.png<>uid://ck61qmefhqxdi::::res://Upscaled Animations/Left/Running Left/Running Left_0004.png<>uid://57clh5co2y7n::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0017.png<>uid://dbmeip6ocsi5h::::res://Upscaled Animations/Left/Running Left/Running Left_0005.png<>uid://c46qc6b6bok0::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0017.png<>uid://cubaj704ndh35::::res://Upscaled Animations/Left/Running Left/Running Left_0006.png<>uid://0a5dhxxrxyu2::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0018.png<>uid://bjninggc84qmo::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0018.png<>uid://db26q0p0knjbd::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0019.png<>uid://ue2kp38w8oyl::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0019.png<>uid://sohqdl3ueev6::::res://Upscaled Animations/Left/Running Left/Running Left_0007.png<>uid://b5c6bm6kwmvl3::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0020.png<>uid://ch6fsgah7qhug::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0020.png<>uid://5aqsfj6qc64m::::res://Upscaled Animations/Left/Running Left/Running Left_0008.png<>uid://cn6p7ddmekie1::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0021.png<>uid://chfhck8o20s4g::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0021.png<>uid://dyfkxu1krs0tc::::res://Upscaled Animations/Left/Running Left/Running Left_0009.png<>uid://dragdskiqfvx8::::res://Upscaled Animations/Left/Running Left/Running Left_0010.png<>uid://bb0a5hlk6whfd::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0022.png<>uid://bjsj10ajmp8xv::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0022.png<>uid://crnyc3p01uqta::::res://Upscaled Animations/Left/Running Left/Running Left_0011.png<>uid://c1qv2bgpdov45::::res://New/Upscaled Animations/Right/Right Idle/Right Idle_0023.png<>uid://eelxnwadphsn::::res://New/Upscaled Animations/Left/Idle Left/Idle Left_0023.png<>uid://dt2r348dmp7tg::::res://Upscaled Animations/Right/Running Right/Running Right_0000.png<>uid://lv31bhif3ywe::::res://Upscaled Animations/Right/Running Right/Running Right_0001.png<>uid://clntbpanp2o3s::::res://Upscaled Animations/Right/Running Right/Running Right_0002.png<>uid://cllalg6hluihd::::res://Upscaled Animations/Right/Running Right/Running Right_0003.png<>uid://cb3klfy8uu3ds::::res://Upscaled Animations/Right/Running Right/Running Right_0004.png<>uid://61ya5evb31rw::::res://Upscaled Animations/Right/Running Right/Running Right_0005.png<>uid://dv3xa0ohwy16s::::res://Upscaled Animations/Right/Running Right/Running Right_0006.png<>uid://ckwlmqj2ee5ch::::res://Upscaled Animations/Right/Running Right/Running Right_0007.png<>uid://ueepwulssak4::::res://Upscaled Animations/Right/Running Right/Running Right_0008.png<>uid://beigqdb41i5ev::::res://Upscaled Animations/Right/Running Right/Running Right_0009.png<>uid://pju8rsxthhoo::::res://Upscaled Animations/Right/Running Right/Running Right_0010.png<>uid://c1vfagdm0i05f::::res://Upscaled Animations/Right/Running Right/Running Right_0011.png<>uid://c7rmrmv47k0kf::::res://Upscaled Animations/Up/Running Up/Running Up_0000.png<>uid://d3lmht382u7wk::::res://Upscaled Animations/Up/Running Up/Running Up_0001.png<>uid://to62s1t3shej::::res://Upscaled Animations/Up/Running Up/Running Up_0002.png<>uid://dgg1fxdew6bom::::res://Upscaled Animations/Up/Running Up/Running Up_0003.png<>uid://4bc4iymihfjl::::res://Upscaled Animations/Up/Running Up/Running Up_0004.png<>uid://g5qvjpskw8br::::res://Upscaled Animations/Up/Running Up/Running Up_0005.png<>uid://uc16unw8x6sh::::res://Upscaled Animations/Up/Running Up/Running Up_0006.png<>uid://bbgcoklkr3081::::res://Upscaled Animations/Up/Running Up/Running Up_0007.png<>uid://bqxxcvati1e2v::::res://Upscaled Animations/Up/Running Up/Running Up_0008.png<>uid://ku5kl5aggghg::::res://Upscaled Animations/Up/Running Up/Running Up_0009.png<>uid://cf3pv1s3tkwti::::res://Upscaled Animations/Up/Running Up/Running Up_0010.png<>uid://jeme5sy3anl6::::res://Upscaled Animations/Up/Running Up/Running Up_0011.png<>uid://bwuo3pvnsli3p::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0000.png<>uid://b3p0xgx8nga5b::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0001.png<>uid://ctxhqutn4erec::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0002.png<>uid://bvhsff0u74ppc::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0003.png<>uid://dcws2dobdw3r8::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0004.png<>uid://bqjx0d8qqc3v7::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0005.png<>uid://dwsbdkoyddaj3::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0006.png<>uid://bt2yoadig51e8::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0007.png<>uid://dof20j5dtpyej::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0008.png<>uid://bimeseai5h4ih::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0009.png<>uid://d4bq8ntdcmohg::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0010.png<>uid://bj587rc5skoqg::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0011.png<>uid://c5uycj5mpkvto::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0012.png<>uid://dc48enej85yxe::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0013.png<>uid://dhy8w5j3mro4n::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0014.png<>uid://cl8lprd0150s6::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0015.png<>uid://6o7bleuwcfyk::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0016.png<>uid://cmoouoe1j35dh::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0017.png<>uid://b2mwytnva3ak1::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0018.png<>uid://blwx01ggtw68c::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0019.png<>uid://d3glddpdxsm13::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0020.png<>uid://c3q57losa3f4k::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0021.png<>uid://bxmp54u3w65f::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0022.png<>uid://e4gc3ks7cn65::::res://New/Upscaled Animations/Up/Up Idle/Up Idle_0023.png<>uid://qsy7qm8s0wgh::::res://New/Upscaled Assets/Shadow.png
 icon.svg::CompressedTexture2D::3617561596884482372::1736483060::1736483066::1::::<><>::
 Idle_0000.png::CompressedTexture2D::5420124454458774919::1736669630::1736669086::1::::<><>::
 Idle_0001.png::CompressedTexture2D::6591985838181813054::1736669630::1736669630::1::::<><>::
@@ -31,12 +31,12 @@ Idle_0021.png::CompressedTexture2D::3179201400853485468::1736669630::1736669630:
 Idle_0022.png::CompressedTexture2D::7495753610871136827::1736669630::1736669630::1::::<><>::
 Idle_0023.png::CompressedTexture2D::8827755953324307124::1736669630::1736669630::1::::<><>::
 iso_tileset.png::CompressedTexture2D::6249826635609500270::1736562443::1736562444::1::::<><>::
-node_2d.tscn::PackedScene::1968837567323164375::1736678114::0::1::::<><>::uid://yuaa6baleybf::::res://tile_map.tscn<>uid://c206shqobman1::::res://character_body_2d.tscn<>uid://bn1ymc0j8hy4c::::res://New/Upscaled Assets/Boss Room background.png<>uid://dl8cyb2n6nite::::res://New/Boss_Room_background_Foreground.png<>uid://cp2uwlp5tgke4::::res://New/Upscaled Assets/Boss 1.png
-Projectile.gd::GDScript::-1::1736675331::0::1::::<>Area2D<>::
-projectile.tscn::PackedScene::1098487299101006192::1736678115::0::1::::<><>::res://Projectile.gd<>uid://be2pd8mkexowx::::res://New/Upscaled Assets/Shooting/Petal 1.png
+node_2d.tscn::PackedScene::1968837567323164375::1736722816::0::1::::<><>::uid://yuaa6baleybf::::res://tile_map.tscn<>uid://c206shqobman1::::res://character_body_2d.tscn<>uid://bn1ymc0j8hy4c::::res://New/Upscaled Assets/Boss Room background.png<>uid://dl8cyb2n6nite::::res://New/Boss_Room_background_Foreground.png<>uid://cp2uwlp5tgke4::::res://New/Upscaled Assets/Boss 1.png
+Projectile.gd::GDScript::-1::1736720553::0::1::::<>Area2D<>::
+projectile.tscn::PackedScene::1098487299101006192::1736722816::0::1::::<><>::res://Projectile.gd<>uid://be2pd8mkexowx::::res://New/Upscaled Assets/Shooting/Petal 1.png
 Sprite2D.gd::GDScript::-1::1736566298::0::1::::<>Sprite2D<>::
 tile_map.gd::GDScript::-1::1736637685::0::1::::<>TileMap<>::
-tile_map.tscn::PackedScene::1725821432177516311::1736678114::0::1::::<><>::uid://cvbpy4x6g422e::::res://iso_tileset.png<>res://tile_map.gd
+tile_map.tscn::PackedScene::1725821432177516311::1736722816::0::1::::<><>::uid://cvbpy4x6g422e::::res://iso_tileset.png<>res://tile_map.gd
 ::res://CSP/::1736671377
 ::res://Forward Legs/::1736671377
 Forward Running Legs_0000.png::CompressedTexture2D::4545928516130761252::1736671377::1736671377::1::::<><>::
@@ -89,176 +89,185 @@ Idle_0023.png::CompressedTexture2D::8434263101683385121::1736671377::1736671377:
 Boss_Room_background_Foreground.png::CompressedTexture2D::7999628184886559586::1736676837::1736676838::1::::<><>::
 ::res://New/Upscaled Animations/::1736676553
 ::res://New/Upscaled Animations/Forward/::1736676552
-::res://New/Upscaled Animations/Forward/Forward Run/::1736676554
-Forward Run_0000.png::CompressedTexture2D::5828363773839926916::1736676552::1736676554::1::::<><>::
-Forward Run_0001.png::CompressedTexture2D::3947332259810842270::1736676552::1736676554::1::::<><>::
-Forward Run_0002.png::CompressedTexture2D::559727384654061983::1736676552::1736676554::1::::<><>::
-Forward Run_0003.png::CompressedTexture2D::6000340350720716999::1736676552::1736676554::1::::<><>::
-Forward Run_0004.png::CompressedTexture2D::3782180618235533458::1736676552::1736676554::1::::<><>::
-Forward Run_0005.png::CompressedTexture2D::4942941664911824614::1736676552::1736676554::1::::<><>::
-Forward Run_0006.png::CompressedTexture2D::1261990673513904092::1736676552::1736676554::1::::<><>::
-Forward Run_0007.png::CompressedTexture2D::6669090870256024781::1736676552::1736676554::1::::<><>::
-Forward Run_0008.png::CompressedTexture2D::1915510547913558921::1736676552::1736676554::1::::<><>::
-Forward Run_0009.png::CompressedTexture2D::7825708773165027881::1736676552::1736676554::1::::<><>::
-Forward Run_0010.png::CompressedTexture2D::1082848203125618936::1736676552::1736676554::1::::<><>::
-Forward Run_0011.png::CompressedTexture2D::6861256038610800177::1736676552::1736676554::1::::<><>::
-::res://New/Upscaled Animations/Forward/Idle Forward/::1736676554
-Idle Forward_0000.png::CompressedTexture2D::7323201055309222419::1736676552::1736676554::1::::<><>::
-Idle Forward_0001.png::CompressedTexture2D::660498434974783122::1736676552::1736676554::1::::<><>::
-Idle Forward_0002.png::CompressedTexture2D::7572404383134494323::1736676552::1736676554::1::::<><>::
-Idle Forward_0003.png::CompressedTexture2D::2672073594897831749::1736676552::1736676554::1::::<><>::
-Idle Forward_0004.png::CompressedTexture2D::8460875544921124038::1736676552::1736676554::1::::<><>::
-Idle Forward_0005.png::CompressedTexture2D::7628125024385583785::1736676552::1736676554::1::::<><>::
-Idle Forward_0006.png::CompressedTexture2D::7349269830693960341::1736676552::1736676554::1::::<><>::
-Idle Forward_0007.png::CompressedTexture2D::4190503322815695840::1736676552::1736676554::1::::<><>::
-Idle Forward_0008.png::CompressedTexture2D::3239408871147624734::1736676552::1736676554::1::::<><>::
-Idle Forward_0009.png::CompressedTexture2D::3326770492334256260::1736676552::1736676554::1::::<><>::
-Idle Forward_0010.png::CompressedTexture2D::1656877069453733891::1736676552::1736676554::1::::<><>::
-Idle Forward_0011.png::CompressedTexture2D::2625124906351823694::1736676552::1736676554::1::::<><>::
-Idle Forward_0012.png::CompressedTexture2D::7839327185080521291::1736676552::1736676554::1::::<><>::
-Idle Forward_0013.png::CompressedTexture2D::3238297109546272418::1736676552::1736676554::1::::<><>::
-Idle Forward_0014.png::CompressedTexture2D::3475881072734387283::1736676552::1736676554::1::::<><>::
-Idle Forward_0015.png::CompressedTexture2D::4112741530572752055::1736676552::1736676554::1::::<><>::
-Idle Forward_0016.png::CompressedTexture2D::8745991684882349325::1736676552::1736676554::1::::<><>::
-Idle Forward_0017.png::CompressedTexture2D::1333607401786827385::1736676552::1736676554::1::::<><>::
-Idle Forward_0018.png::CompressedTexture2D::4877957509608359938::1736676552::1736676554::1::::<><>::
-Idle Forward_0019.png::CompressedTexture2D::2618705948018458324::1736676552::1736676554::1::::<><>::
-Idle Forward_0020.png::CompressedTexture2D::5875738864284539666::1736676552::1736676554::1::::<><>::
-Idle Forward_0021.png::CompressedTexture2D::5552192862978385311::1736676552::1736676554::1::::<><>::
-Idle Forward_0022.png::CompressedTexture2D::936601390652313258::1736676552::1736676554::1::::<><>::
-Idle Forward_0023.png::CompressedTexture2D::1742512825481125500::1736676552::1736676554::1::::<><>::
+::res://New/Upscaled Animations/Forward/Forward Run/::1736723137
+Forward Run_0000.png::CompressedTexture2D::5828363773839926916::1736723137::1736723140::1::::<><>::
+Forward Run_0001.png::CompressedTexture2D::3947332259810842270::1736723137::1736723140::1::::<><>::
+Forward Run_0002.png::CompressedTexture2D::559727384654061983::1736723137::1736723140::1::::<><>::
+Forward Run_0003.png::CompressedTexture2D::6000340350720716999::1736723137::1736723140::1::::<><>::
+Forward Run_0004.png::CompressedTexture2D::3782180618235533458::1736723137::1736723140::1::::<><>::
+Forward Run_0005.png::CompressedTexture2D::4942941664911824614::1736723137::1736723140::1::::<><>::
+Forward Run_0006.png::CompressedTexture2D::1261990673513904092::1736723137::1736723140::1::::<><>::
+Forward Run_0007.png::CompressedTexture2D::6669090870256024781::1736723137::1736723140::1::::<><>::
+Forward Run_0008.png::CompressedTexture2D::1915510547913558921::1736723137::1736723140::1::::<><>::
+Forward Run_0009.png::CompressedTexture2D::7825708773165027881::1736723137::1736723140::1::::<><>::
+Forward Run_0010.png::CompressedTexture2D::1082848203125618936::1736723137::1736723140::1::::<><>::
+Forward Run_0011.png::CompressedTexture2D::6861256038610800177::1736723137::1736723140::1::::<><>::
+::res://New/Upscaled Animations/Forward/Idle Forward/::1736723137
+Idle Forward_0000.png::CompressedTexture2D::7323201055309222419::1736723137::1736723140::1::::<><>::
+Idle Forward_0001.png::CompressedTexture2D::660498434974783122::1736723137::1736723140::1::::<><>::
+Idle Forward_0002.png::CompressedTexture2D::7572404383134494323::1736723137::1736723140::1::::<><>::
+Idle Forward_0003.png::CompressedTexture2D::2672073594897831749::1736723137::1736723140::1::::<><>::
+Idle Forward_0004.png::CompressedTexture2D::8460875544921124038::1736723137::1736723140::1::::<><>::
+Idle Forward_0005.png::CompressedTexture2D::7628125024385583785::1736723137::1736723140::1::::<><>::
+Idle Forward_0006.png::CompressedTexture2D::7349269830693960341::1736723137::1736723140::1::::<><>::
+Idle Forward_0007.png::CompressedTexture2D::4190503322815695840::1736723137::1736723140::1::::<><>::
+Idle Forward_0008.png::CompressedTexture2D::3239408871147624734::1736723137::1736723140::1::::<><>::
+Idle Forward_0009.png::CompressedTexture2D::3326770492334256260::1736723137::1736723140::1::::<><>::
+Idle Forward_0010.png::CompressedTexture2D::1656877069453733891::1736723137::1736723140::1::::<><>::
+Idle Forward_0011.png::CompressedTexture2D::2625124906351823694::1736723137::1736723140::1::::<><>::
+Idle Forward_0012.png::CompressedTexture2D::7839327185080521291::1736723137::1736723140::1::::<><>::
+Idle Forward_0013.png::CompressedTexture2D::3238297109546272418::1736723137::1736723140::1::::<><>::
+Idle Forward_0014.png::CompressedTexture2D::3475881072734387283::1736723137::1736723140::1::::<><>::
+Idle Forward_0015.png::CompressedTexture2D::4112741530572752055::1736723137::1736723140::1::::<><>::
+Idle Forward_0016.png::CompressedTexture2D::8745991684882349325::1736723137::1736723140::1::::<><>::
+Idle Forward_0017.png::CompressedTexture2D::1333607401786827385::1736723137::1736723140::1::::<><>::
+Idle Forward_0018.png::CompressedTexture2D::4877957509608359938::1736723137::1736723140::1::::<><>::
+Idle Forward_0019.png::CompressedTexture2D::2618705948018458324::1736723137::1736723140::1::::<><>::
+Idle Forward_0020.png::CompressedTexture2D::5875738864284539666::1736723137::1736723141::1::::<><>::
+Idle Forward_0021.png::CompressedTexture2D::5552192862978385311::1736723137::1736723141::1::::<><>::
+Idle Forward_0022.png::CompressedTexture2D::936601390652313258::1736723137::1736723141::1::::<><>::
+Idle Forward_0023.png::CompressedTexture2D::1742512825481125500::1736723137::1736723141::1::::<><>::
+Idle Forward_0024.png::CompressedTexture2D::499566351373900737::1736723137::1736723140::1::::<><>::
+Idle Forward_0025.png::CompressedTexture2D::2785136846498201156::1736723137::1736723140::1::::<><>::
+Idle Forward_0026.png::CompressedTexture2D::3182108526057601252::1736723137::1736723140::1::::<><>::
+Idle Forward_0027.png::CompressedTexture2D::2302929472222385160::1736723137::1736723140::1::::<><>::
+Idle Forward_0028.png::CompressedTexture2D::944394848172648220::1736723137::1736723140::1::::<><>::
+Idle Forward_0029.png::CompressedTexture2D::2242501650666724256::1736723137::1736723140::1::::<><>::
+Idle Forward_0030.png::CompressedTexture2D::1358161461950228601::1736723137::1736723140::1::::<><>::
+Idle Forward_0031.png::CompressedTexture2D::5645569875805303454::1736723137::1736723140::1::::<><>::
 ::res://New/Upscaled Animations/Left/::1736676552
-::res://New/Upscaled Animations/Left/Idle Left/::1736676555
-Idle Left_0000.png::CompressedTexture2D::4894894453824805722::1736676552::1736676554::1::::<><>::
-Idle Left_0001.png::CompressedTexture2D::3137157473659701624::1736676552::1736676554::1::::<><>::
-Idle Left_0002.png::CompressedTexture2D::1537143299686597063::1736676552::1736676554::1::::<><>::
-Idle Left_0003.png::CompressedTexture2D::949556543415683475::1736676552::1736676554::1::::<><>::
-Idle Left_0004.png::CompressedTexture2D::427820033839144949::1736676552::1736676554::1::::<><>::
-Idle Left_0005.png::CompressedTexture2D::7080711557445628747::1736676552::1736676554::1::::<><>::
-Idle Left_0006.png::CompressedTexture2D::8762692142400234376::1736676552::1736676554::1::::<><>::
-Idle Left_0007.png::CompressedTexture2D::983757861601352332::1736676552::1736676554::1::::<><>::
-Idle Left_0008.png::CompressedTexture2D::7145795327180884509::1736676552::1736676554::1::::<><>::
-Idle Left_0009.png::CompressedTexture2D::2771423057611279975::1736676552::1736676554::1::::<><>::
-Idle Left_0010.png::CompressedTexture2D::3553516715447869160::1736676552::1736676554::1::::<><>::
-Idle Left_0011.png::CompressedTexture2D::3422616799428587468::1736676552::1736676555::1::::<><>::
-Idle Left_0012.png::CompressedTexture2D::5299211489345191565::1736676552::1736676555::1::::<><>::
-Idle Left_0013.png::CompressedTexture2D::2847789449627066954::1736676552::1736676555::1::::<><>::
-Idle Left_0014.png::CompressedTexture2D::4698942028201208008::1736676552::1736676555::1::::<><>::
-Idle Left_0015.png::CompressedTexture2D::706639499139191639::1736676552::1736676555::1::::<><>::
-Idle Left_0016.png::CompressedTexture2D::6722349776040666478::1736676552::1736676555::1::::<><>::
-Idle Left_0017.png::CompressedTexture2D::2171866889107624229::1736676552::1736676555::1::::<><>::
-Idle Left_0018.png::CompressedTexture2D::3045466463046120990::1736676552::1736676555::1::::<><>::
-Idle Left_0019.png::CompressedTexture2D::7287101230960778417::1736676552::1736676555::1::::<><>::
-Idle Left_0020.png::CompressedTexture2D::4498099439565245990::1736676552::1736676555::1::::<><>::
-Idle Left_0021.png::CompressedTexture2D::5750260108108366354::1736676552::1736676555::1::::<><>::
-Idle Left_0022.png::CompressedTexture2D::2508272930152727913::1736676552::1736676555::1::::<><>::
-Idle Left_0023.png::CompressedTexture2D::289722562542468661::1736676552::1736676554::1::::<><>::
-::res://New/Upscaled Animations/Left/Running Left/::1736676554
-Running Left_0000.png::CompressedTexture2D::8619829336054487452::1736676552::1736676554::1::::<><>::
-Running Left_0001.png::CompressedTexture2D::5663674305198682458::1736676552::1736676554::1::::<><>::
-Running Left_0002.png::CompressedTexture2D::3537242566005351230::1736676552::1736676554::1::::<><>::
-Running Left_0003.png::CompressedTexture2D::4017671503407268574::1736676552::1736676554::1::::<><>::
-Running Left_0004.png::CompressedTexture2D::623985887676898574::1736676552::1736676554::1::::<><>::
-Running Left_0005.png::CompressedTexture2D::3213537257262562837::1736676552::1736676554::1::::<><>::
-Running Left_0006.png::CompressedTexture2D::7230958438260294320::1736676552::1736676554::1::::<><>::
-Running Left_0007.png::CompressedTexture2D::5393269521000227118::1736676552::1736676554::1::::<><>::
-Running Left_0008.png::CompressedTexture2D::55058018915632591::1736676552::1736676554::1::::<><>::
-Running Left_0009.png::CompressedTexture2D::2607465574659681816::1736676552::1736676554::1::::<><>::
-Running Left_0010.png::CompressedTexture2D::2508531853702611883::1736676552::1736676554::1::::<><>::
-Running Left_0011.png::CompressedTexture2D::8052940421456496319::1736676552::1736676554::1::::<><>::
+::res://New/Upscaled Animations/Left/Idle Left/::1736723137
+Idle Left_0000.png::CompressedTexture2D::4894894453824805722::1736723137::1736723141::1::::<><>::
+Idle Left_0001.png::CompressedTexture2D::3137157473659701624::1736723137::1736723141::1::::<><>::
+Idle Left_0002.png::CompressedTexture2D::1537143299686597063::1736723137::1736723141::1::::<><>::
+Idle Left_0003.png::CompressedTexture2D::949556543415683475::1736723137::1736723141::1::::<><>::
+Idle Left_0004.png::CompressedTexture2D::427820033839144949::1736723137::1736723141::1::::<><>::
+Idle Left_0005.png::CompressedTexture2D::7080711557445628747::1736723137::1736723141::1::::<><>::
+Idle Left_0006.png::CompressedTexture2D::8762692142400234376::1736723137::1736723141::1::::<><>::
+Idle Left_0007.png::CompressedTexture2D::983757861601352332::1736723137::1736723141::1::::<><>::
+Idle Left_0008.png::CompressedTexture2D::7145795327180884509::1736723137::1736723141::1::::<><>::
+Idle Left_0009.png::CompressedTexture2D::2771423057611279975::1736723137::1736723141::1::::<><>::
+Idle Left_0010.png::CompressedTexture2D::3553516715447869160::1736723137::1736723141::1::::<><>::
+Idle Left_0011.png::CompressedTexture2D::3422616799428587468::1736723137::1736723141::1::::<><>::
+Idle Left_0012.png::CompressedTexture2D::5299211489345191565::1736723137::1736723141::1::::<><>::
+Idle Left_0013.png::CompressedTexture2D::2847789449627066954::1736723137::1736723141::1::::<><>::
+Idle Left_0014.png::CompressedTexture2D::4698942028201208008::1736723137::1736723141::1::::<><>::
+Idle Left_0015.png::CompressedTexture2D::706639499139191639::1736723137::1736723141::1::::<><>::
+Idle Left_0016.png::CompressedTexture2D::6722349776040666478::1736723137::1736723141::1::::<><>::
+Idle Left_0017.png::CompressedTexture2D::2171866889107624229::1736723137::1736723141::1::::<><>::
+Idle Left_0018.png::CompressedTexture2D::3045466463046120990::1736723137::1736723140::1::::<><>::
+Idle Left_0019.png::CompressedTexture2D::7287101230960778417::1736723137::1736723141::1::::<><>::
+Idle Left_0020.png::CompressedTexture2D::4498099439565245990::1736723137::1736723140::1::::<><>::
+Idle Left_0021.png::CompressedTexture2D::5750260108108366354::1736723137::1736723140::1::::<><>::
+Idle Left_0022.png::CompressedTexture2D::2508272930152727913::1736723137::1736723141::1::::<><>::
+Idle Left_0023.png::CompressedTexture2D::289722562542468661::1736723137::1736723141::1::::<><>::
+::res://New/Upscaled Animations/Left/Running Left/::1736723137
+Running Left_0000.png::CompressedTexture2D::8619829336054487452::1736723137::1736723141::1::::<><>::
+Running Left_0001.png::CompressedTexture2D::5663674305198682458::1736723137::1736723141::1::::<><>::
+Running Left_0002.png::CompressedTexture2D::3537242566005351230::1736723137::1736723141::1::::<><>::
+Running Left_0003.png::CompressedTexture2D::4017671503407268574::1736723137::1736723141::1::::<><>::
+Running Left_0004.png::CompressedTexture2D::623985887676898574::1736723137::1736723141::1::::<><>::
+Running Left_0005.png::CompressedTexture2D::3213537257262562837::1736723137::1736723141::1::::<><>::
+Running Left_0006.png::CompressedTexture2D::7230958438260294320::1736723137::1736723141::1::::<><>::
+Running Left_0007.png::CompressedTexture2D::5393269521000227118::1736723137::1736723141::1::::<><>::
+Running Left_0008.png::CompressedTexture2D::55058018915632591::1736723137::1736723141::1::::<><>::
+Running Left_0009.png::CompressedTexture2D::2607465574659681816::1736723137::1736723141::1::::<><>::
+Running Left_0010.png::CompressedTexture2D::2508531853702611883::1736723137::1736723141::1::::<><>::
+Running Left_0011.png::CompressedTexture2D::8052940421456496319::1736723137::1736723141::1::::<><>::
 ::res://New/Upscaled Animations/Right/::1736676553
-::res://New/Upscaled Animations/Right/Right Idle/::1736676554
-Right Idle_0000.png::CompressedTexture2D::3100078579620406668::1736676552::1736676554::1::::<><>::
-Right Idle_0001.png::CompressedTexture2D::4188594744752905090::1736676552::1736676554::1::::<><>::
-Right Idle_0002.png::CompressedTexture2D::5677997883934395248::1736676552::1736676554::1::::<><>::
-Right Idle_0003.png::CompressedTexture2D::7784240042931602441::1736676552::1736676554::1::::<><>::
-Right Idle_0004.png::CompressedTexture2D::3199057155094190307::1736676552::1736676554::1::::<><>::
-Right Idle_0005.png::CompressedTexture2D::7592349791901604060::1736676553::1736676554::1::::<><>::
-Right Idle_0006.png::CompressedTexture2D::990111335113383274::1736676553::1736676554::1::::<><>::
-Right Idle_0007.png::CompressedTexture2D::235059648116515528::1736676553::1736676554::1::::<><>::
-Right Idle_0008.png::CompressedTexture2D::8831936119983948604::1736676553::1736676554::1::::<><>::
-Right Idle_0009.png::CompressedTexture2D::7662265696697187869::1736676553::1736676554::1::::<><>::
-Right Idle_0010.png::CompressedTexture2D::9137033390046243776::1736676553::1736676554::1::::<><>::
-Right Idle_0011.png::CompressedTexture2D::4177904825171289010::1736676553::1736676554::1::::<><>::
-Right Idle_0012.png::CompressedTexture2D::1768016297840049429::1736676553::1736676554::1::::<><>::
-Right Idle_0013.png::CompressedTexture2D::5537962874481401934::1736676553::1736676554::1::::<><>::
-Right Idle_0014.png::CompressedTexture2D::3162286319414387944::1736676553::1736676554::1::::<><>::
-Right Idle_0015.png::CompressedTexture2D::7774315428812296851::1736676553::1736676554::1::::<><>::
-Right Idle_0016.png::CompressedTexture2D::7543135369815144289::1736676553::1736676554::1::::<><>::
-Right Idle_0017.png::CompressedTexture2D::202155594644591869::1736676553::1736676554::1::::<><>::
-Right Idle_0018.png::CompressedTexture2D::1756548362378135691::1736676553::1736676554::1::::<><>::
-Right Idle_0019.png::CompressedTexture2D::1413692433155488507::1736676553::1736676554::1::::<><>::
-Right Idle_0020.png::CompressedTexture2D::5328495027983951530::1736676553::1736676554::1::::<><>::
-Right Idle_0021.png::CompressedTexture2D::5274914329045131296::1736676553::1736676554::1::::<><>::
-Right Idle_0022.png::CompressedTexture2D::3055873273094230911::1736676553::1736676554::1::::<><>::
-Right Idle_0023.png::CompressedTexture2D::6632104681801821004::1736676553::1736676554::1::::<><>::
-::res://New/Upscaled Animations/Right/Running Right/::1736676554
-Running Right_0000.png::CompressedTexture2D::8026214806121384614::1736676553::1736676554::1::::<><>::
-Running Right_0001.png::CompressedTexture2D::5046453415419805491::1736676553::1736676554::1::::<><>::
-Running Right_0002.png::CompressedTexture2D::3411602964892113553::1736676553::1736676554::1::::<><>::
-Running Right_0003.png::CompressedTexture2D::7971783636727433783::1736676553::1736676554::1::::<><>::
-Running Right_0004.png::CompressedTexture2D::6603290177807531623::1736676553::1736676554::1::::<><>::
-Running Right_0005.png::CompressedTexture2D::4539504715911909867::1736676553::1736676554::1::::<><>::
-Running Right_0006.png::CompressedTexture2D::4179797221224879261::1736676553::1736676554::1::::<><>::
-Running Right_0007.png::CompressedTexture2D::6002064869073169319::1736676553::1736676554::1::::<><>::
-Running Right_0008.png::CompressedTexture2D::4424804083151807964::1736676553::1736676554::1::::<><>::
-Running Right_0009.png::CompressedTexture2D::6935531429376201386::1736676553::1736676554::1::::<><>::
-Running Right_0010.png::CompressedTexture2D::944206773639914483::1736676553::1736676554::1::::<><>::
-Running Right_0011.png::CompressedTexture2D::1475129823809565278::1736676553::1736676554::1::::<><>::
+::res://New/Upscaled Animations/Right/Right Idle/::1736723138
+Right Idle_0000.png::CompressedTexture2D::3100078579620406668::1736723137::1736723141::1::::<><>::
+Right Idle_0001.png::CompressedTexture2D::4188594744752905090::1736723138::1736723140::1::::<><>::
+Right Idle_0002.png::CompressedTexture2D::5677997883934395248::1736723138::1736723140::1::::<><>::
+Right Idle_0003.png::CompressedTexture2D::7784240042931602441::1736723138::1736723140::1::::<><>::
+Right Idle_0004.png::CompressedTexture2D::3199057155094190307::1736723138::1736723140::1::::<><>::
+Right Idle_0005.png::CompressedTexture2D::7592349791901604060::1736723138::1736723140::1::::<><>::
+Right Idle_0006.png::CompressedTexture2D::990111335113383274::1736723138::1736723140::1::::<><>::
+Right Idle_0007.png::CompressedTexture2D::235059648116515528::1736723138::1736723140::1::::<><>::
+Right Idle_0008.png::CompressedTexture2D::8831936119983948604::1736723138::1736723140::1::::<><>::
+Right Idle_0009.png::CompressedTexture2D::7662265696697187869::1736723138::1736723140::1::::<><>::
+Right Idle_0010.png::CompressedTexture2D::9137033390046243776::1736723138::1736723140::1::::<><>::
+Right Idle_0011.png::CompressedTexture2D::4177904825171289010::1736723138::1736723140::1::::<><>::
+Right Idle_0012.png::CompressedTexture2D::1768016297840049429::1736723138::1736723140::1::::<><>::
+Right Idle_0013.png::CompressedTexture2D::5537962874481401934::1736723138::1736723140::1::::<><>::
+Right Idle_0014.png::CompressedTexture2D::3162286319414387944::1736723138::1736723140::1::::<><>::
+Right Idle_0015.png::CompressedTexture2D::7774315428812296851::1736723138::1736723140::1::::<><>::
+Right Idle_0016.png::CompressedTexture2D::7543135369815144289::1736723138::1736723140::1::::<><>::
+Right Idle_0017.png::CompressedTexture2D::202155594644591869::1736723138::1736723140::1::::<><>::
+Right Idle_0018.png::CompressedTexture2D::1756548362378135691::1736723138::1736723140::1::::<><>::
+Right Idle_0019.png::CompressedTexture2D::1413692433155488507::1736723138::1736723140::1::::<><>::
+Right Idle_0020.png::CompressedTexture2D::5328495027983951530::1736723138::1736723140::1::::<><>::
+Right Idle_0021.png::CompressedTexture2D::5274914329045131296::1736723138::1736723140::1::::<><>::
+Right Idle_0022.png::CompressedTexture2D::3055873273094230911::1736723138::1736723140::1::::<><>::
+Right Idle_0023.png::CompressedTexture2D::6632104681801821004::1736723138::1736723140::1::::<><>::
+::res://New/Upscaled Animations/Right/Running Right/::1736723138
+Running Right_0000.png::CompressedTexture2D::8026214806121384614::1736723138::1736723140::1::::<><>::
+Running Right_0001.png::CompressedTexture2D::5046453415419805491::1736723138::1736723140::1::::<><>::
+Running Right_0002.png::CompressedTexture2D::3411602964892113553::1736723138::1736723140::1::::<><>::
+Running Right_0003.png::CompressedTexture2D::7971783636727433783::1736723138::1736723140::1::::<><>::
+Running Right_0004.png::CompressedTexture2D::6603290177807531623::1736723138::1736723140::1::::<><>::
+Running Right_0005.png::CompressedTexture2D::4539504715911909867::1736723138::1736723140::1::::<><>::
+Running Right_0006.png::CompressedTexture2D::4179797221224879261::1736723138::1736723140::1::::<><>::
+Running Right_0007.png::CompressedTexture2D::6002064869073169319::1736723138::1736723140::1::::<><>::
+Running Right_0008.png::CompressedTexture2D::4424804083151807964::1736723138::1736723140::1::::<><>::
+Running Right_0009.png::CompressedTexture2D::6935531429376201386::1736723138::1736723140::1::::<><>::
+Running Right_0010.png::CompressedTexture2D::944206773639914483::1736723138::1736723140::1::::<><>::
+Running Right_0011.png::CompressedTexture2D::1475129823809565278::1736723138::1736723140::1::::<><>::
 ::res://New/Upscaled Animations/Up/::1736676553
-::res://New/Upscaled Animations/Up/Running Up/::1736676554
-Running Up_0000.png::CompressedTexture2D::2578478612343116696::1736676553::1736676554::1::::<><>::
-Running Up_0001.png::CompressedTexture2D::4801259724831071526::1736676553::1736676554::1::::<><>::
-Running Up_0002.png::CompressedTexture2D::3555845199677310920::1736676553::1736676554::1::::<><>::
-Running Up_0003.png::CompressedTexture2D::3468391882935222528::1736676553::1736676554::1::::<><>::
-Running Up_0004.png::CompressedTexture2D::4028327286161842442::1736676553::1736676554::1::::<><>::
-Running Up_0005.png::CompressedTexture2D::6521284434071996547::1736676553::1736676554::1::::<><>::
-Running Up_0006.png::CompressedTexture2D::4714404475831312320::1736676553::1736676554::1::::<><>::
-Running Up_0007.png::CompressedTexture2D::3557801328951386456::1736676553::1736676554::1::::<><>::
-Running Up_0008.png::CompressedTexture2D::2236287007578509899::1736676553::1736676554::1::::<><>::
-Running Up_0009.png::CompressedTexture2D::8695825856488026128::1736676553::1736676554::1::::<><>::
-Running Up_0010.png::CompressedTexture2D::3731146364451908220::1736676553::1736676554::1::::<><>::
-Running Up_0011.png::CompressedTexture2D::8630735503370211671::1736676553::1736676554::1::::<><>::
-::res://New/Upscaled Animations/Up/Up Idle/::1736676554
-Up Idle_0000.png::CompressedTexture2D::3972763659845378623::1736676553::1736676554::1::::<><>::
-Up Idle_0001.png::CompressedTexture2D::4384233322135459293::1736676553::1736676554::1::::<><>::
-Up Idle_0002.png::CompressedTexture2D::6154364756951913886::1736676553::1736676554::1::::<><>::
-Up Idle_0003.png::CompressedTexture2D::3875939181399010404::1736676553::1736676554::1::::<><>::
-Up Idle_0004.png::CompressedTexture2D::7346197350497565907::1736676553::1736676554::1::::<><>::
-Up Idle_0005.png::CompressedTexture2D::3529462926666464298::1736676553::1736676554::1::::<><>::
-Up Idle_0006.png::CompressedTexture2D::8740642033018913430::1736676553::1736676554::1::::<><>::
-Up Idle_0007.png::CompressedTexture2D::3777229126123517985::1736676553::1736676554::1::::<><>::
-Up Idle_0008.png::CompressedTexture2D::8153912273650970233::1736676553::1736676554::1::::<><>::
-Up Idle_0009.png::CompressedTexture2D::2972979188604714403::1736676553::1736676554::1::::<><>::
-Up Idle_0010.png::CompressedTexture2D::9197834009713729868::1736676553::1736676554::1::::<><>::
-Up Idle_0011.png::CompressedTexture2D::3082113312597523598::1736676553::1736676554::1::::<><>::
-Up Idle_0012.png::CompressedTexture2D::6921255530642545960::1736676553::1736676554::1::::<><>::
-Up Idle_0013.png::CompressedTexture2D::7361518186597009426::1736676553::1736676554::1::::<><>::
-Up Idle_0014.png::CompressedTexture2D::7702173561762822823::1736676553::1736676554::1::::<><>::
-Up Idle_0015.png::CompressedTexture2D::5613738685820740183::1736676553::1736676554::1::::<><>::
-Up Idle_0016.png::CompressedTexture2D::2206700755772534846::1736676553::1736676554::1::::<><>::
-Up Idle_0017.png::CompressedTexture2D::5644895276076859029::1736676553::1736676554::1::::<><>::
-Up Idle_0018.png::CompressedTexture2D::4307671646844627374::1736676553::1736676554::1::::<><>::
-Up Idle_0019.png::CompressedTexture2D::3205356785156858240::1736676553::1736676554::1::::<><>::
-Up Idle_0020.png::CompressedTexture2D::9137609364680595296::1736676553::1736676554::1::::<><>::
-Up Idle_0021.png::CompressedTexture2D::6773038288707074200::1736676553::1736676554::1::::<><>::
-Up Idle_0022.png::CompressedTexture2D::118426544250038061::1736676553::1736676554::1::::<><>::
-Up Idle_0023.png::CompressedTexture2D::340991689926814912::1736676553::1736676554::1::::<><>::
-::res://New/Upscaled Assets/::1736676828
-Boss 1.png::CompressedTexture2D::5882666450955157293::1736676553::1736676554::1::::<><>::
-Boss 2.png::CompressedTexture2D::4876273166637134432::1736676553::1736676554::1::::<><>::
-Boss Room background.png::CompressedTexture2D::3354028254066462564::1736676553::1736676555::1::::<><>::
-Shadow.png::CompressedTexture2D::1161695511448632499::1736676553::1736676554::1::::<><>::
-::res://New/Upscaled Assets/Shooting/::1736676554
-Hands Down.png::CompressedTexture2D::782611250052111819::1736676553::1736676554::1::::<><>::
-Hands Left.png::CompressedTexture2D::5758544209676893458::1736676553::1736676554::1::::<><>::
-Hands Right.png::CompressedTexture2D::8753160034345005057::1736676553::1736676554::1::::<><>::
-Hands Up.png::CompressedTexture2D::5124468862146190172::1736676553::1736676554::1::::<><>::
-Petal 1.png::CompressedTexture2D::2723832122146884467::1736676553::1736676554::1::::<><>::
-Shooting Down.png::CompressedTexture2D::3243639791370956119::1736676553::1736676554::1::::<><>::
-Shooting Left.png::CompressedTexture2D::2348713788364970729::1736676553::1736676554::1::::<><>::
-Shooting Right.png::CompressedTexture2D::8315261365894881691::1736676553::1736676554::1::::<><>::
-Shooting Up.png::CompressedTexture2D::261073644908449445::1736676553::1736676554::1::::<><>::
+::res://New/Upscaled Animations/Up/Running Up/::1736723138
+Running Up_0000.png::CompressedTexture2D::2578478612343116696::1736723138::1736723140::1::::<><>::
+Running Up_0001.png::CompressedTexture2D::4801259724831071526::1736723138::1736723140::1::::<><>::
+Running Up_0002.png::CompressedTexture2D::3555845199677310920::1736723138::1736723140::1::::<><>::
+Running Up_0003.png::CompressedTexture2D::3468391882935222528::1736723138::1736723140::1::::<><>::
+Running Up_0004.png::CompressedTexture2D::4028327286161842442::1736723138::1736723140::1::::<><>::
+Running Up_0005.png::CompressedTexture2D::6521284434071996547::1736723138::1736723140::1::::<><>::
+Running Up_0006.png::CompressedTexture2D::4714404475831312320::1736723138::1736723140::1::::<><>::
+Running Up_0007.png::CompressedTexture2D::3557801328951386456::1736723138::1736723140::1::::<><>::
+Running Up_0008.png::CompressedTexture2D::2236287007578509899::1736723138::1736723140::1::::<><>::
+Running Up_0009.png::CompressedTexture2D::8695825856488026128::1736723138::1736723140::1::::<><>::
+Running Up_0010.png::CompressedTexture2D::3731146364451908220::1736723138::1736723140::1::::<><>::
+Running Up_0011.png::CompressedTexture2D::8630735503370211671::1736723138::1736723140::1::::<><>::
+::res://New/Upscaled Animations/Up/Up Idle/::1736723138
+Up Idle_0000.png::CompressedTexture2D::3972763659845378623::1736723138::1736723140::1::::<><>::
+Up Idle_0001.png::CompressedTexture2D::4384233322135459293::1736723138::1736723140::1::::<><>::
+Up Idle_0002.png::CompressedTexture2D::6154364756951913886::1736723138::1736723140::1::::<><>::
+Up Idle_0003.png::CompressedTexture2D::3875939181399010404::1736723138::1736723140::1::::<><>::
+Up Idle_0004.png::CompressedTexture2D::7346197350497565907::1736723138::1736723140::1::::<><>::
+Up Idle_0005.png::CompressedTexture2D::3529462926666464298::1736723138::1736723140::1::::<><>::
+Up Idle_0006.png::CompressedTexture2D::8740642033018913430::1736723138::1736723140::1::::<><>::
+Up Idle_0007.png::CompressedTexture2D::3777229126123517985::1736723138::1736723140::1::::<><>::
+Up Idle_0008.png::CompressedTexture2D::8153912273650970233::1736723138::1736723140::1::::<><>::
+Up Idle_0009.png::CompressedTexture2D::2972979188604714403::1736723138::1736723140::1::::<><>::
+Up Idle_0010.png::CompressedTexture2D::9197834009713729868::1736723138::1736723140::1::::<><>::
+Up Idle_0011.png::CompressedTexture2D::3082113312597523598::1736723138::1736723140::1::::<><>::
+Up Idle_0012.png::CompressedTexture2D::6921255530642545960::1736723138::1736723140::1::::<><>::
+Up Idle_0013.png::CompressedTexture2D::7361518186597009426::1736723138::1736723140::1::::<><>::
+Up Idle_0014.png::CompressedTexture2D::7702173561762822823::1736723138::1736723140::1::::<><>::
+Up Idle_0015.png::CompressedTexture2D::5613738685820740183::1736723138::1736723140::1::::<><>::
+Up Idle_0016.png::CompressedTexture2D::2206700755772534846::1736723138::1736723140::1::::<><>::
+Up Idle_0017.png::CompressedTexture2D::5644895276076859029::1736723138::1736723140::1::::<><>::
+Up Idle_0018.png::CompressedTexture2D::4307671646844627374::1736723138::1736723140::1::::<><>::
+Up Idle_0019.png::CompressedTexture2D::3205356785156858240::1736723138::1736723140::1::::<><>::
+Up Idle_0020.png::CompressedTexture2D::9137609364680595296::1736723138::1736723140::1::::<><>::
+Up Idle_0021.png::CompressedTexture2D::6773038288707074200::1736723138::1736723140::1::::<><>::
+Up Idle_0022.png::CompressedTexture2D::118426544250038061::1736723138::1736723140::1::::<><>::
+Up Idle_0023.png::CompressedTexture2D::340991689926814912::1736723138::1736723140::1::::<><>::
+::res://New/Upscaled Assets/::1736723138
+Boss 1.png::CompressedTexture2D::5882666450955157293::1736723138::1736676554::1::::<><>::
+Boss 2.png::CompressedTexture2D::4876273166637134432::1736723138::1736676554::1::::<><>::
+Boss Room background Foreground.png::CompressedTexture2D::4346330221014931658::1736723138::1736723141::1::::<><>::
+Boss Room background.png::CompressedTexture2D::3354028254066462564::1736723138::1736676555::1::::<><>::
+Shadow.png::CompressedTexture2D::1161695511448632499::1736723138::1736676554::1::::<><>::
+::res://New/Upscaled Assets/Shooting/::1736723139
+Hands Down.png::CompressedTexture2D::782611250052111819::1736723138::1736723140::1::::<><>::
+Hands Left.png::CompressedTexture2D::5758544209676893458::1736723139::1736723140::1::::<><>::
+Hands Right.png::CompressedTexture2D::8753160034345005057::1736723139::1736723140::1::::<><>::
+Hands Up.png::CompressedTexture2D::5124468862146190172::1736723139::1736723140::1::::<><>::
+Petal 1.png::CompressedTexture2D::2723832122146884467::1736723139::1736676554::1::::<><>::
+Shooting Down.png::CompressedTexture2D::3243639791370956119::1736723139::1736723140::1::::<><>::
+Shooting Left.png::CompressedTexture2D::2348713788364970729::1736723139::1736723140::1::::<><>::
+Shooting Right.png::CompressedTexture2D::8315261365894881691::1736723139::1736723140::1::::<><>::
+Shooting Up.png::CompressedTexture2D::261073644908449445::1736723139::1736723140::1::::<><>::
 ::res://Running/::1736672238
 Running Forward_0000.png::CompressedTexture2D::2592619788273557196::1736671376::1736671377::1::::<><>::
 Running Forward_0001.png::CompressedTexture2D::3034998017463908763::1736671376::1736671377::1::::<><>::
