@@ -1,4 +1,6 @@
 extends Area2D
+class_name ProjectileAbstract
+
 
 @export var speed = 500  # Projectile speed
 @export var lifetime = 2.0  # Time before it disappears
@@ -7,8 +9,16 @@ var tilemap: TileMap
 var direction = Vector2.ZERO  # Direction the projectile travels in
 
 
-# Load the TileMap script to access its properties
-var tilemap_script = preload("res://tile_map.gd")
+# this is the placeholder shit CHANGE THIS FOR GODS SAKE
+
+var tilemap_script = preload("res://tile_map.gd") #we gonna need to change this once there is more than one level with one tilemap
+
+func set_speed(new_speed):
+	speed = new_speed
+	
+func set_lifetime(new_lifetime):
+	new_lifetime = lifetime
+	
 
 func _ready():
 	if has_node(tilemap_path):
@@ -24,7 +34,7 @@ func _ready():
 	await get_tree().create_timer(lifetime).timeout
 	queue_free()
 
-func _physics_process(delta):
+func _physics_process(delta): #this is for only straight movement, if we want to go fance then we need to do something else
 	# Move the projectile in its direction
 	position += direction * speed * delta
 	if direction != Vector2.ZERO:
