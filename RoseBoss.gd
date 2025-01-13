@@ -5,7 +5,7 @@ extends BossEnemy
 
 func _ready():
 	#set up any of the timers needed
-	
+	#TODO - when idle, shoot out the ring of thorns
 	super() # call parent _ready()
 
 
