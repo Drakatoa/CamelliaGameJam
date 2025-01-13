@@ -5,7 +5,7 @@ extends Area2D
 
 var direction = Vector2.ZERO  # Direction the projectile travels in
 
-@export var tilemap_path: NodePath  # Export a NodePath variable
+@export var tilemap_path: NodePath 
 var tilemap: TileMap
 
 # Load the TileMap script to access its properties
