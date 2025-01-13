@@ -12,10 +12,11 @@ const main_source = 0
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	place_boundaries()
+	print(self.get_path())
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
 	pass
 	
 func place_boundaries():
