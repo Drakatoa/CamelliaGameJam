@@ -1,7 +1,12 @@
 extends Area2D
 
-@export var speed = 1000  # Projectile speed
+@export var speed = 500  # Projectile speed
 @export var lifetime = 2.0  # Time before it disappears
+@export var frequency = 2.0  # Frequency of the sine wave
+@export var amplitude = 4.0  # Amplitude of the sine wave
+@export var is_sin: bool = true
+var traveled_distance = 0.0
+var elapsed_time = 0.0
 @export var tilemap_path: NodePath = NodePath("/root/Node2D/TileMap") # Export a NodePath variable
 var tilemap: TileMap
 var direction = Vector2.ZERO  # Direction the projectile travels in
@@ -25,7 +30,21 @@ func _ready():
 
 func _physics_process(delta):
 	# Move the projectile in its direction
-	position += direction * speed * delta
+	traveled_distance += speed * delta
+	var straight_movement = direction * speed * delta
+	elapsed_time += delta
+	var offset
+	if is_sin:
+		offset = Vector2(
+			-direction.y,  # Perpendicular to the straight movement (x component)
+			direction.x    # Perpendicular to the straight movement (y component)
+		).normalized() * sin(elapsed_time * TAU * frequency) * amplitude
+	else:
+		offset = Vector2(
+			direction.y,  # Perpendicular to the straight movement (x component)
+			-direction.x    # Perpendicular to the straight movement (y component)
+		).normalized() * sin(elapsed_time * TAU * frequency) * amplitude
+	position += straight_movement + offset
 	if direction != Vector2.ZERO:
 		rotation = direction.angle() 
 

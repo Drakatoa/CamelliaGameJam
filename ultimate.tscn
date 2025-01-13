@@ -1,0 +1,347 @@
+[gd_scene load_steps=82 format=3 uid="uid://bjp8btbco67as"]
+
+[ext_resource type="Script" path="res://ultimate.gd" id="1_bo70a"]
+[ext_resource type="Texture2D" uid="uid://dg8rabyu651uo" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0000.png" id="1_jp5sh"]
+[ext_resource type="Texture2D" uid="uid://5eryobv21u6g" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0001.png" id="2_8wlkp"]
+[ext_resource type="Texture2D" uid="uid://bvtbuq0mhwh4c" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0002.png" id="3_184h6"]
+[ext_resource type="Texture2D" uid="uid://mbllft1wvpov" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0003.png" id="4_nmtvk"]
+[ext_resource type="Texture2D" uid="uid://1tmh50lwf7np" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0004.png" id="5_4f4o5"]
+[ext_resource type="Texture2D" uid="uid://j2utqchydbpr" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0005.png" id="6_e5iaa"]
+[ext_resource type="Texture2D" uid="uid://dw3nnw2y7pspv" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0006.png" id="7_p57mj"]
+[ext_resource type="Texture2D" uid="uid://jp1rsbhc07rn" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0007.png" id="8_7leqj"]
+[ext_resource type="Texture2D" uid="uid://cmt02gglfodnb" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0008.png" id="9_db13n"]
+[ext_resource type="Texture2D" uid="uid://dgkyc18mu16uj" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0009.png" id="10_bfrrh"]
+[ext_resource type="Texture2D" uid="uid://ckvfdyqx4dya5" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0010.png" id="11_n428t"]
+[ext_resource type="Texture2D" uid="uid://bkt7orx18ycwp" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0011.png" id="12_cxbh1"]
+[ext_resource type="Texture2D" uid="uid://6a2tlmmvpvd1" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0012.png" id="13_i34pg"]
+[ext_resource type="Texture2D" uid="uid://c8gypales5uwp" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0013.png" id="14_a1ivg"]
+[ext_resource type="Texture2D" uid="uid://h83fav8rwivq" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0014.png" id="15_hurk1"]
+[ext_resource type="Texture2D" uid="uid://dbnmu2j4ys2tm" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0015.png" id="16_4ofde"]
+[ext_resource type="Texture2D" uid="uid://cluh3mhqjufv2" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0016.png" id="17_dnmyc"]
+[ext_resource type="Texture2D" uid="uid://ced3yq1e44j4q" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0017.png" id="18_0buxj"]
+[ext_resource type="Texture2D" uid="uid://bya5pvmhsv6g0" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0018.png" id="19_nq8ak"]
+[ext_resource type="Texture2D" uid="uid://blexlp4ava87b" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0019.png" id="20_b4tf0"]
+[ext_resource type="Texture2D" uid="uid://budnk6kave6pn" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0020.png" id="21_ljtgn"]
+[ext_resource type="Texture2D" uid="uid://bxegm1ed7ca0j" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0021.png" id="22_4053x"]
+[ext_resource type="Texture2D" uid="uid://bwctclhaclrt4" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0022.png" id="23_q0tha"]
+[ext_resource type="Texture2D" uid="uid://dcc2jjdepae0n" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0023.png" id="24_fckhd"]
+[ext_resource type="Texture2D" uid="uid://bp6hqtip0uref" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0024.png" id="25_awrh7"]
+[ext_resource type="Texture2D" uid="uid://ccbc5lskj73pg" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0025.png" id="26_80hja"]
+[ext_resource type="Texture2D" uid="uid://2s06uvc7oxsa" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0026.png" id="27_hogj8"]
+[ext_resource type="Texture2D" uid="uid://cgcpk77jx4mg2" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0027.png" id="28_e67vj"]
+[ext_resource type="Texture2D" uid="uid://t8hmg7fojd7f" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0028.png" id="29_cyp6n"]
+[ext_resource type="Texture2D" uid="uid://v1heinb43u7i" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0029.png" id="30_rx2ei"]
+[ext_resource type="Texture2D" uid="uid://bi511iba54nes" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0030.png" id="31_xk4a1"]
+[ext_resource type="Texture2D" uid="uid://bdl628kcwh7oi" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0031.png" id="32_44mhw"]
+[ext_resource type="Texture2D" uid="uid://1fhb6tb2ke0m" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0032.png" id="33_vsbq3"]
+[ext_resource type="Texture2D" uid="uid://xg8fhapjnr56" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0033.png" id="34_1m48n"]
+[ext_resource type="Texture2D" uid="uid://cj5nr8fsa2mfc" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0034.png" id="35_cu2la"]
+[ext_resource type="Texture2D" uid="uid://3wekq8xi7kg0" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0035.png" id="36_xslwl"]
+[ext_resource type="Texture2D" uid="uid://dwvj7r2ffqrd3" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0036.png" id="37_dxwxm"]
+[ext_resource type="Texture2D" uid="uid://ccwu4qt66jvr" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0037.png" id="38_apu2c"]
+[ext_resource type="Texture2D" uid="uid://1dj4ud1aaidx" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0038.png" id="39_eqepr"]
+[ext_resource type="Texture2D" uid="uid://b5wjt4no3li3e" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0039.png" id="40_5sm76"]
+[ext_resource type="Texture2D" uid="uid://dcsta087g4g1i" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0040.png" id="41_dcqjg"]
+[ext_resource type="Texture2D" uid="uid://dnwb42b01ukdt" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0041.png" id="42_cq1jh"]
+[ext_resource type="Texture2D" uid="uid://cxh1snnfnfwvg" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0042.png" id="43_1ad22"]
+[ext_resource type="Texture2D" uid="uid://clpya3in4gmw0" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0043.png" id="44_mxkss"]
+[ext_resource type="Texture2D" uid="uid://c1vdduwwbymb0" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0044.png" id="45_rsshf"]
+[ext_resource type="Texture2D" uid="uid://bmona17g4fe3m" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0045.png" id="46_fp10n"]
+[ext_resource type="Texture2D" uid="uid://qt04eryep7sw" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0046.png" id="47_xlbny"]
+[ext_resource type="Texture2D" uid="uid://bn2egguawxtpc" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0047.png" id="48_a2dyu"]
+[ext_resource type="Texture2D" uid="uid://dakpxxiarrmpx" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0048.png" id="49_qw0b1"]
+[ext_resource type="Texture2D" uid="uid://cfye8jmo0pd7d" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0049.png" id="50_pc7pa"]
+[ext_resource type="Texture2D" uid="uid://f836eggtinow" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0050.png" id="51_4pgw8"]
+[ext_resource type="Texture2D" uid="uid://bftkqr8whnms8" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0051.png" id="52_tdkjo"]
+[ext_resource type="Texture2D" uid="uid://bcpx252vv2awt" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0052.png" id="53_4v0w7"]
+[ext_resource type="Texture2D" uid="uid://dub02dc34tmi2" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0053.png" id="54_7og53"]
+[ext_resource type="Texture2D" uid="uid://4yk3ytcydsda" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0054.png" id="55_d6rlr"]
+[ext_resource type="Texture2D" uid="uid://dhd41pwt058lt" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0055.png" id="56_cn6xy"]
+[ext_resource type="Texture2D" uid="uid://mnt4ljdrfbdo" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0056.png" id="57_iemn6"]
+[ext_resource type="Texture2D" uid="uid://detfcrvakfj0t" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0057.png" id="58_cyiqd"]
+[ext_resource type="Texture2D" uid="uid://cs0hp3s22gi5h" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0058.png" id="59_4hwhy"]
+[ext_resource type="Texture2D" uid="uid://dy70kxvv0niqy" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0059.png" id="60_pdqk6"]
+[ext_resource type="Texture2D" uid="uid://bm7op85olpk1u" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0060.png" id="61_jj6va"]
+[ext_resource type="Texture2D" uid="uid://0q0o4xuhu3i5" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0061.png" id="62_ylbsk"]
+[ext_resource type="Texture2D" uid="uid://dh0p5pevoqi15" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0062.png" id="63_l5cov"]
+[ext_resource type="Texture2D" uid="uid://d1dv06abawn14" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0063.png" id="64_4j0hk"]
+[ext_resource type="Texture2D" uid="uid://cgmb6b60xs8pg" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0064.png" id="65_c8kbi"]
+[ext_resource type="Texture2D" uid="uid://j5cemtmd4n0h" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0065.png" id="66_ac2hp"]
+[ext_resource type="Texture2D" uid="uid://fwov1e2y6ybq" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0066.png" id="67_ryuv0"]
+[ext_resource type="Texture2D" uid="uid://cfnlvfulqudmc" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0067.png" id="68_qt7cq"]
+[ext_resource type="Texture2D" uid="uid://bdm3kw74gsroq" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0068.png" id="69_uny62"]
+[ext_resource type="Texture2D" uid="uid://vhb8u85g3v8x" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0069.png" id="70_ve3d6"]
+[ext_resource type="Texture2D" uid="uid://bvqahxnknhaxc" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0070.png" id="71_accok"]
+[ext_resource type="Texture2D" uid="uid://cvkuksc0nakfi" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0071.png" id="72_nmt7o"]
+[ext_resource type="Texture2D" uid="uid://bu7lh4lm3t0mn" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0072.png" id="73_7mg58"]
+[ext_resource type="Texture2D" uid="uid://bkljwj3c6bvkh" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0073.png" id="74_44uxv"]
+[ext_resource type="Texture2D" uid="uid://c8edfcfc473ke" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0074.png" id="75_8d4vj"]
+[ext_resource type="Texture2D" uid="uid://cqtqlqr4lfymc" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0075.png" id="76_2pdrn"]
+[ext_resource type="Texture2D" uid="uid://ckra1baj5ptwd" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0076.png" id="77_x4ra5"]
+[ext_resource type="Texture2D" uid="uid://bxv75pf4o447h" path="res://Ultimate FX and Boss Dying FX/VFX or Abilities/Ultimate/Ultimate_0077.png" id="78_ec1j5"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s8kh8"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_jp5sh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_8wlkp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_184h6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_nmtvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_4f4o5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_e5iaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_p57mj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_7leqj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_db13n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_bfrrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_n428t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_cxbh1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_i34pg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_a1ivg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_hurk1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_4ofde")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_dnmyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_0buxj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_nq8ak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_b4tf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ljtgn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_4053x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_q0tha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_fckhd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_awrh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_80hja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_hogj8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_e67vj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_cyp6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_rx2ei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_xk4a1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_44mhw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_vsbq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_1m48n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_cu2la")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_xslwl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_dxwxm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_apu2c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_eqepr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_5sm76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_dcqjg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_cq1jh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_1ad22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_mxkss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_rsshf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_fp10n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_xlbny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_a2dyu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_qw0b1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_pc7pa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_4pgw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_tdkjo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_4v0w7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_7og53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_d6rlr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_cn6xy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_iemn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_cyiqd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_4hwhy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_pdqk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_jj6va")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_ylbsk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_l5cov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_4j0hk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_c8kbi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_ac2hp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_ryuv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_qt7cq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_uny62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_ve3d6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_accok")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_nmt7o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_7mg58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_44uxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_8d4vj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_2pdrn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_x4ra5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_ec1j5")
+}],
+"loop": false,
+"name": &"ultimate",
+"speed": 24.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_wsh68"]
+radius = 256.0
+height = 1955.57
+
+[node name="ultimate" type="Area2D"]
+scale = Vector2(0.8, 0.8)
+script = ExtResource("1_bo70a")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -600)
+sprite_frames = SubResource("SpriteFrames_s8kh8")
+animation = &"ultimate"
+frame = 77
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -813.785)
+shape = SubResource("CapsuleShape2D_wsh68")

@@ -10,7 +10,9 @@ const MAX_ZOOM = 2.0  # Maximum zoom (farther from player)
 const ZOOM_SMOOTHNESS = 5.0  # Higher values make zooming faster
 
 # Shooting constants
-@export var ability_scene = preload("res://Ability.gd")  # Load the Ability script
+@export var ability_scene = preload("res://Ability.gd") 
+#@export var ultimate_ability_scene = preload("res://ultimate.gd")  # Path to the ultimate ability script
+#var ultimate_ability # Load the Ability script
 @onready var protagonist = $Protagonist
 @onready var handshooting = $handshooting
 
@@ -20,12 +22,17 @@ var ability  # Instance of the ability class
 var dir = "down"
 var is_shooting = false
 var shoot_timer = 0.0
+var is_sin = true;
+var is_casting_ult = false;
 
 func _ready():
 	ability = ability_scene.new()
 	add_child(ability)
+	#ultimate_ability = ultimate_ability_scene.new()
 
 func _physics_process(delta):
+	if is_casting_ult:
+		return
 	var mouse_position = get_global_mouse_position()
 	var angle_to_mouse = (mouse_position - global_position).angle()
 	protagonist.rotation = 0
@@ -177,7 +184,7 @@ func _physics_process(delta):
 			handshooting.play()
 			
 			shoot_projectile(mouse_position)
-			shoot_timer = ability.cooldown_time  # Reset the cooldown timer
+			shoot_timer = ability.primary_cooldown_time  # Reset the cooldown timer
 	else:
 		is_shooting = false  # Reset shooting state when button is released
 		handshooting.animation = "default"
@@ -186,6 +193,26 @@ func _physics_process(delta):
 	# Decrease the shoot timer
 	if shoot_timer > 0.0:
 		shoot_timer -= delta
+	if Input.is_action_just_pressed("ultimate") and ability.can_use_ult:
+		use_ultimate()
+
+func use_ultimate():
+	# Use the ultimate ability
+	var spawn_position = get_global_mouse_position()  # The position where the ultimate is spawned
+	is_casting_ult = true
+	protagonist.animation = "default"
+	protagonist.play()
+	$ultcast.visible = true
+	$ultcast.animation = "ultcast"
+	$ultcast.play()
+	await get_tree().create_timer(1.25).timeout
+	ability.use_ult(self, spawn_position)
+	await get_tree().create_timer((59.0/24.0)-1.25).timeout
+	$ultcast.visible = false
+	$ultcast.animation = "default"
+	$ultcast.play()
+	dir = "down"
+	is_casting_ult=false
 
 func play_animation(animation_name: String):
 	if protagonist.animation != animation_name:
@@ -205,8 +232,13 @@ func _input(event):
 
 func shoot_projectile(mouse_position):
 	# Spawn position is slightly in front of the player
-	if ability.can_use:
-		var spawn_position = global_position + Vector2(0, -10) 
+	if ability.can_use_primary:
+		var spawn_position
+		if is_sin:
+			spawn_position = global_position + Vector2(0, -10)
+		else:
+			spawn_position = global_position + Vector2(0, -10)
 		#var mouse_position = get_global_mouse_position()
 		var direction = (mouse_position - global_position).normalized()  # Direction towards the mouse
-		ability.use_ability(self, spawn_position, direction)
+		ability.use_ability(self, spawn_position, direction, is_sin)
+		is_sin = not is_sin

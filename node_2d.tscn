@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://c206shqobman1" path="res://character_body_2d.tscn" id="2_f7hnt"]
 [ext_resource type="Texture2D" uid="uid://bn1ymc0j8hy4c" path="res://New/Upscaled Assets/Boss Room background.png" id="3_3d2pd"]
 [ext_resource type="Texture2D" uid="uid://dl8cyb2n6nite" path="res://New/Boss_Room_background_Foreground.png" id="4_u2u7p"]
-[ext_resource type="Texture2D" uid="uid://cp2uwlp5tgke4" path="res://New/Upscaled Assets/Boss 1.png" id="5_m42e1"]
+[ext_resource type="Texture2D" uid="uid://bvpvhcxclould" path="res://Boss_1.png" id="5_q7gfk"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -28,7 +28,7 @@ position = Vector2(727, 1729)
 scale = Vector2(0.97, 0.97)
 texture = ExtResource("4_u2u7p")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(968, 1646)
-scale = Vector2(0.97, 0.97)
-texture = ExtResource("5_m42e1")
+[node name="Boss" type="Sprite2D" parent="."]
+position = Vector2(903, 1588)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("5_q7gfk")
