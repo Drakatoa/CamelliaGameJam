@@ -28,8 +28,18 @@ func _ready():
 func _physics_process(delta):
 	var mouse_position = get_global_mouse_position()
 	var angle_to_mouse = (mouse_position - global_position).angle()
+	protagonist.rotation = 0
 	if self.velocity.length() < 0.1 and not is_shooting:
-		if dir == "right":
+	# Idle animations
+		if dir == "upright":
+			protagonist.animation = "upright_idle"
+		elif dir == "upleft":
+			protagonist.animation = "upleft_idle"
+		elif dir == "downright":
+			protagonist.animation = "downright_idle"
+		elif dir == "downleft":
+			protagonist.animation = "downleft_idle"
+		elif dir == "right":
 			protagonist.animation = "right_idle"
 		elif dir == "left":
 			protagonist.animation = "left_idle"
@@ -39,18 +49,45 @@ func _physics_process(delta):
 			protagonist.animation = "idle"
 		protagonist.play()
 	elif not is_shooting:  # If the character is moving
-		if angle_to_mouse > -PI / 4 and angle_to_mouse <= PI / 4:
-			play_animation("run_right")
-			dir = "right"
-		elif angle_to_mouse > PI / 4 and angle_to_mouse <= 3 * PI / 4:
-			play_animation("run_down")
-			dir = "down"
-		elif angle_to_mouse > -3 * PI / 4 and angle_to_mouse <= -PI / 4:
-			play_animation("run_up")
-			dir = "up"
+	# Run animations
+		if self.velocity.x > 0 and self.velocity.y > 0:
+			dir = "downright"
+			play_animation("run_downright")
+		elif self.velocity.x > 0 and self.velocity.y < 0:
+			dir = "upright"
+			play_animation("run_upright")
+		elif self.velocity.x < 0 and self.velocity.y > 0:
+			dir = "downleft"
+			play_animation("run_downleft")
+		elif self.velocity.x < 0 and self.velocity.y < 0:
+			dir = "upleft"
+			play_animation("run_upleft")
+		elif abs(self.velocity.x) > abs(self.velocity.y):
+			if self.velocity.x > 0:
+				dir = "right"
+				play_animation("run_right")
+			else:
+				dir = "left"
+				play_animation("run_left")
 		else:
-			play_animation("run_left")
-			dir = "left"
+			if self.velocity.y > 0:
+				dir = "down"
+				play_animation("run_down")
+			else:
+				dir = "up"
+				play_animation("run_up")
+		#if angle_to_mouse > -PI / 4 and angle_to_mouse <= PI / 4:
+			#play_animation("run_right")
+			#dir = "right"
+		#elif angle_to_mouse > PI / 4 and angle_to_mouse <= 3 * PI / 4:
+			#play_animation("run_down")
+			#dir = "down"
+		#elif angle_to_mouse > -3 * PI / 4 and angle_to_mouse <= -PI / 4:
+			#play_animation("run_up")
+			#dir = "up"
+		#else:
+			#play_animation("run_left")
+			#dir = "left"
 
 	var direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	if direction:
@@ -64,32 +101,76 @@ func _physics_process(delta):
 	$Camera2D.zoom = $Camera2D.zoom.lerp(target_zoom, ZOOM_SMOOTHNESS * delta)
 	
 	# Shooting logic
-	handshooting.rotation = angle_to_mouse+135
+	#handshooting.rotation = angle_to_mouse+135
 	var shoot_direction = ""
+	var person_direction = ""
+	var spawn_position
+	if (-PI / 8 <= angle_to_mouse) and (angle_to_mouse < PI / 8):
+	# Right
+		person_direction = "right"
+	elif (PI / 8 <= angle_to_mouse) and (angle_to_mouse < 3 * PI / 8):
+	# Down-right
+		person_direction = "downright"
+	elif (3 * PI / 8 <= angle_to_mouse) and (angle_to_mouse < 5 * PI / 8):
+	# Down
+		person_direction = "down"
+	elif (5 * PI / 8 <= angle_to_mouse) and (angle_to_mouse < 7 * PI / 8):
+	# Down-left
+		person_direction = "downleft"
+	elif (angle_to_mouse >= 7 * PI / 8) or (angle_to_mouse < -7 * PI / 8):
+	# Left
+		person_direction = "left"
+	elif (-7 * PI / 8 <= angle_to_mouse) and (angle_to_mouse < -5 * PI / 8):
+	# Up-left
+		person_direction = "upleft"
+	elif (-5 * PI / 8 <= angle_to_mouse) and (angle_to_mouse < -3 * PI / 8):
+	# Up
+		person_direction = "up"
+	elif (-3 * PI / 8 <= angle_to_mouse) and (angle_to_mouse < -PI / 8):
+	# Up-right
+		person_direction = "upright"
+
 	if angle_to_mouse > -PI / 4 and angle_to_mouse <= PI / 4:
 		shoot_direction = "right"
-		handshooting.position.x = 2.5
-		handshooting.position.y = 10
+		handshooting.rotation = angle_to_mouse
+		if is_shooting:
+			protagonist.rotation = angle_to_mouse/6
+		handshooting.position = Vector2(0, -5.5)
+		handshooting.offset = Vector2(146.875, 5.208)
+		handshooting.scale = Vector2(.12, .12)
 		handshooting.z_index = 3
 	elif angle_to_mouse > PI / 4 and angle_to_mouse <= 3 * PI / 4:
 		shoot_direction = "down"
-		handshooting.position.x = 2
-		handshooting.position.y = 9.5
+		handshooting.rotation = angle_to_mouse-deg_to_rad(90)
+		if is_shooting:
+			protagonist.rotation = (angle_to_mouse-deg_to_rad(90))/12
+		handshooting.position = Vector2(.5, -11.5)
+		handshooting.offset = Vector2(9.375, 146.875)
+		handshooting.scale = Vector2(.16, .16)
 		handshooting.z_index = 3
 	elif angle_to_mouse > -3 * PI / 4 and angle_to_mouse <= -PI / 4:
 		shoot_direction = "up"
-		handshooting.position.x = .5
-		handshooting.position.y = -12
+		handshooting.rotation = angle_to_mouse+deg_to_rad(90)
+		if is_shooting:
+			protagonist.rotation = (angle_to_mouse+deg_to_rad(90))/6
+		handshooting.position = Vector2(0, -4)
+		handshooting.offset = Vector2(1.042, -178.125)
+		handshooting.scale = Vector2(.12, .12)
 		handshooting.z_index = 1
 	else:
 		shoot_direction = "left"
-		handshooting.position.x = -12.5
-		handshooting.position.y = -1
+		var normalized_angle = wrapf(angle_to_mouse - deg_to_rad(180), -PI, PI)
+		handshooting.rotation = normalized_angle
+		if is_shooting:
+			protagonist.rotation = normalized_angle / 12
+		handshooting.position = Vector2(-1.5, -5.5)
+		handshooting.offset = Vector2(-128.125, 5.208)
+		handshooting.scale = Vector2(.12, .12)
 		handshooting.z_index = 3
 	if Input.is_action_pressed("shoot"):
 		if shoot_timer <= 0.0:  # Only shoot if timer allows
 			is_shooting = true
-			protagonist.animation = "shooting_" + shoot_direction
+			protagonist.animation = "shooting_" + person_direction
 			protagonist.play()
 			
 			handshooting.animation = "shoot_" + shoot_direction
@@ -125,7 +206,7 @@ func _input(event):
 func shoot_projectile(mouse_position):
 	# Spawn position is slightly in front of the player
 	if ability.can_use:
-		var spawn_position = global_position + Vector2(0, -10)  # Adjust as needed
+		var spawn_position = global_position + Vector2(0, -10) 
 		#var mouse_position = get_global_mouse_position()
 		var direction = (mouse_position - global_position).normalized()  # Direction towards the mouse
 		ability.use_ability(self, spawn_position, direction)

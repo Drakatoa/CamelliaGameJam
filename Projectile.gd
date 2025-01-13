@@ -1,6 +1,6 @@
 extends Area2D
 
-@export var speed = 500  # Projectile speed
+@export var speed = 1000  # Projectile speed
 @export var lifetime = 2.0  # Time before it disappears
 @export var tilemap_path: NodePath = NodePath("/root/Node2D/TileMap") # Export a NodePath variable
 var tilemap: TileMap
