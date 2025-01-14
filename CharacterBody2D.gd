@@ -118,26 +118,62 @@ func _physics_process(delta):
 	elif (PI / 8 <= angle_to_mouse) and (angle_to_mouse < 3 * PI / 8):
 	# Down-right
 		person_direction = "downright"
+		shoot_direction = "down"
+		handshooting.rotation = angle_to_mouse-deg_to_rad(90)
+		if is_shooting:
+			protagonist.rotation = (angle_to_mouse-deg_to_rad(90))/12
+		handshooting.position = Vector2(.5, -11.5)
+		handshooting.offset = Vector2(9.375, 146.875)
+		handshooting.scale = Vector2(.16, .16)
+		handshooting.z_index = 3
+		call_deferred("check_shooting", person_direction, shoot_direction, mouse_position)
 	elif (3 * PI / 8 <= angle_to_mouse) and (angle_to_mouse < 5 * PI / 8):
 	# Down
 		person_direction = "down"
 	elif (5 * PI / 8 <= angle_to_mouse) and (angle_to_mouse < 7 * PI / 8):
 	# Down-left
 		person_direction = "downleft"
+		shoot_direction = "down"
+		handshooting.rotation = angle_to_mouse-deg_to_rad(90)
+		if is_shooting:
+			protagonist.rotation = (angle_to_mouse-deg_to_rad(90))/12
+		handshooting.position = Vector2(.5, -11.5)
+		handshooting.offset = Vector2(9.375, 146.875)
+		handshooting.scale = Vector2(.16, .16)
+		handshooting.z_index = 3
+		call_deferred("check_shooting", person_direction, shoot_direction, mouse_position)
 	elif (angle_to_mouse >= 7 * PI / 8) or (angle_to_mouse < -7 * PI / 8):
 	# Left
 		person_direction = "left"
 	elif (-7 * PI / 8 <= angle_to_mouse) and (angle_to_mouse < -5 * PI / 8):
 	# Up-left
 		person_direction = "upleft"
+		shoot_direction = "up"
+		handshooting.rotation = angle_to_mouse+deg_to_rad(90)
+		if is_shooting:
+			protagonist.rotation = (angle_to_mouse+deg_to_rad(90))/6
+		handshooting.position = Vector2(0, -4)
+		handshooting.offset = Vector2(1.042, -178.125)
+		handshooting.scale = Vector2(.12, .12)
+		handshooting.z_index = 1
+		call_deferred("check_shooting", person_direction, shoot_direction, mouse_position)
 	elif (-5 * PI / 8 <= angle_to_mouse) and (angle_to_mouse < -3 * PI / 8):
 	# Up
 		person_direction = "up"
 	elif (-3 * PI / 8 <= angle_to_mouse) and (angle_to_mouse < -PI / 8):
 	# Up-right
 		person_direction = "upright"
+		shoot_direction = "up"
+		handshooting.rotation = angle_to_mouse+deg_to_rad(90)
+		if is_shooting:
+			protagonist.rotation = (angle_to_mouse+deg_to_rad(90))/6
+		handshooting.position = Vector2(0, -4)
+		handshooting.offset = Vector2(1.042, -178.125)
+		handshooting.scale = Vector2(.12, .12)
+		handshooting.z_index = 1
+		call_deferred("check_shooting", person_direction, shoot_direction, mouse_position)
 
-	if angle_to_mouse > -PI / 4 and angle_to_mouse <= PI / 4:
+	if (-PI / 8 <= angle_to_mouse) and (angle_to_mouse < PI / 8):
 		shoot_direction = "right"
 		handshooting.rotation = angle_to_mouse
 		if is_shooting:
@@ -146,6 +182,7 @@ func _physics_process(delta):
 		handshooting.offset = Vector2(146.875, 5.208)
 		handshooting.scale = Vector2(.12, .12)
 		handshooting.z_index = 3
+		call_deferred("check_shooting", person_direction, shoot_direction, mouse_position)
 	elif angle_to_mouse > PI / 4 and angle_to_mouse <= 3 * PI / 4:
 		shoot_direction = "down"
 		handshooting.rotation = angle_to_mouse-deg_to_rad(90)
@@ -155,6 +192,7 @@ func _physics_process(delta):
 		handshooting.offset = Vector2(9.375, 146.875)
 		handshooting.scale = Vector2(.16, .16)
 		handshooting.z_index = 3
+		call_deferred("check_shooting", person_direction, shoot_direction, mouse_position)
 	elif angle_to_mouse > -3 * PI / 4 and angle_to_mouse <= -PI / 4:
 		shoot_direction = "up"
 		handshooting.rotation = angle_to_mouse+deg_to_rad(90)
@@ -164,7 +202,8 @@ func _physics_process(delta):
 		handshooting.offset = Vector2(1.042, -178.125)
 		handshooting.scale = Vector2(.12, .12)
 		handshooting.z_index = 1
-	else:
+		call_deferred("check_shooting", person_direction, shoot_direction, mouse_position)
+	elif (angle_to_mouse >= 7 * PI / 8) or (angle_to_mouse < -7 * PI / 8):
 		shoot_direction = "left"
 		var normalized_angle = wrapf(angle_to_mouse - deg_to_rad(180), -PI, PI)
 		handshooting.rotation = normalized_angle
@@ -174,14 +213,28 @@ func _physics_process(delta):
 		handshooting.offset = Vector2(-128.125, 5.208)
 		handshooting.scale = Vector2(.12, .12)
 		handshooting.z_index = 3
+		call_deferred("check_shooting", person_direction, shoot_direction, mouse_position)
+
+	# Decrease the shoot timer
+	if shoot_timer > 0.0:
+		shoot_timer -= delta
+	if Input.is_action_just_pressed("ultimate") and ability.can_use_ult:
+		use_ultimate()
+	if Input.is_action_just_pressed("dash"):
+		use_dash()
+
+func use_dash():
+	print()
+
+func check_shooting(person_direction, shoot_direction, mouse_position):
 	if Input.is_action_pressed("shoot"):
 		if shoot_timer <= 0.0:  # Only shoot if timer allows
 			is_shooting = true
 			protagonist.animation = "shooting_" + person_direction
 			protagonist.play()
-			
 			handshooting.animation = "shoot_" + shoot_direction
 			handshooting.play()
+			#handshooting.call_deferred("play", "shoot_" + shoot_direction)
 			
 			shoot_projectile(mouse_position)
 			shoot_timer = ability.primary_cooldown_time  # Reset the cooldown timer
@@ -189,12 +242,6 @@ func _physics_process(delta):
 		is_shooting = false  # Reset shooting state when button is released
 		handshooting.animation = "default"
 		handshooting.play()
-
-	# Decrease the shoot timer
-	if shoot_timer > 0.0:
-		shoot_timer -= delta
-	if Input.is_action_just_pressed("ultimate") and ability.can_use_ult:
-		use_ultimate()
 
 func use_ultimate():
 	# Use the ultimate ability

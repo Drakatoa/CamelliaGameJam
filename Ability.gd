@@ -19,11 +19,12 @@ func spawn_crater(crater_position):
 
 	# Load and spawn the crater
 	var crater_scene = preload("res://crater.tscn")  # Path to the crater scene
+	await get_tree().create_timer(59.0/24.0/2.0).timeout
 	var crater = crater_scene.instantiate()
 	get_tree().current_scene.add_child(crater)
 	crater.position = crater_position  # Position the crater
 	current_crater = crater  # Store the reference to the current crater
-	await get_tree().create_timer(59.0/24.0).timeout
+	await get_tree().create_timer(10.0).timeout
 	fade_and_free(current_crater, 5)
 
 func fade_and_free(object: Node2D, fade_duration):

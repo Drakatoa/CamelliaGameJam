@@ -44,9 +44,10 @@ func _physics_process(delta):
 			direction.y,  # Perpendicular to the straight movement (x component)
 			-direction.x    # Perpendicular to the straight movement (y component)
 		).normalized() * sin(elapsed_time * TAU * frequency) * amplitude
-	position += straight_movement + offset
+	var movement = straight_movement + offset
+	position += movement
 	if direction != Vector2.ZERO:
-		rotation = direction.angle() 
+		rotation = movement.angle()
 
 	# Check for collision with the TileMap
 	if tilemap and tilemap is TileMap:
