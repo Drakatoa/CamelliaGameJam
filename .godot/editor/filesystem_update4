@@ -1,11 +1,9 @@
 res://tile_map.tscn
 res://Projectile.gd
+res://projectile.tscn
 res://node_2d.tscn
 res://character_body_2d.tscn
-res://projectile.tscn
-res://CharacterBody2D.gd
-res://Ability.gd
 res://ultimate.tscn
-res://ultimate.gd
-res://Sprite2D.gd
-res://tile_map.gd
+res://Ability.gd
+res://crater.tscn
+res://CharacterBody2D.gd

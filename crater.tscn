@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://by4fi1ww18ngd"]
+
+[ext_resource type="Texture2D" uid="uid://bjh5eduvxstk5" path="res://Ult_Crater.png" id="1_ll23d"]
+
+[node name="Area2D" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ll23d")

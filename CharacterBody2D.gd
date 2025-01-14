@@ -232,12 +232,16 @@ func _input(event):
 
 func shoot_projectile(mouse_position):
 	# Spawn position is slightly in front of the player
+	
 	if ability.can_use_primary:
 		var spawn_position
+		var offset_distance = 70 
+		var angle_to_mouse = (mouse_position - global_position).angle()
+		var offset = Vector2(cos(angle_to_mouse), sin(angle_to_mouse)) * offset_distance
 		if is_sin:
-			spawn_position = global_position + Vector2(0, -10)
+			spawn_position = global_position + Vector2(0, -10) + offset
 		else:
-			spawn_position = global_position + Vector2(0, -10)
+			spawn_position = global_position + Vector2(0, -10) + offset
 		#var mouse_position = get_global_mouse_position()
 		var direction = (mouse_position - global_position).normalized()  # Direction towards the mouse
 		ability.use_ability(self, spawn_position, direction, is_sin)

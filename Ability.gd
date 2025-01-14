@@ -7,6 +7,30 @@ var can_use_primary = true
 
 @export var ult_cooldown_time = 10.0  # Cooldown for abilities (including ultimate)
 var can_use_ult = true  # Whether the ability can currently be used
+var current_crater = null  # Stores the current crater instance
+
+#@export var fade_duration = 1.0  # Time for the fade-out effect
+
+
+func spawn_crater(crater_position):
+	# Remove the previous crater if it exists
+	#if current_crater and current_crater.is_queued_for_deletion() == false:
+		#fade_and_free(current_crater, 1)
+
+	# Load and spawn the crater
+	var crater_scene = preload("res://crater.tscn")  # Path to the crater scene
+	var crater = crater_scene.instantiate()
+	get_tree().current_scene.add_child(crater)
+	crater.position = crater_position  # Position the crater
+	current_crater = crater  # Store the reference to the current crater
+	await get_tree().create_timer(59.0/24.0).timeout
+	fade_and_free(current_crater, 5)
+
+func fade_and_free(object: Node2D, fade_duration):
+	if object and object.is_queued_for_deletion() == false:
+		var tween = object.create_tween()
+		tween.tween_property(object, "modulate:a", 0.0, fade_duration)
+		tween.tween_callback(Callable(object, "queue_free"))
 
 func use_ult(caller, spawn_position):
 	if can_use_ult:
@@ -21,6 +45,7 @@ func spawn_ultimate(spawn_position):
 	var ultimate = ultimate_scene.instantiate()
 	get_tree().current_scene.add_child(ultimate)
 	ultimate.position = spawn_position  # Position the ultimate
+	spawn_crater(spawn_position)
 
 func start_cooldown():
 	await get_tree().create_timer(ult_cooldown_time).timeout
