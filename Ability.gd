@@ -5,12 +5,28 @@ extends Node
 @export var primary_cooldown_time = 0.1  # Time between uses
 var can_use_primary = true
 
+@export var dash_cooldown_time = 2.0  # Time between uses
+var can_use_dash = true
+@export var dash_duration = .2
+@export var dash_trail_interval = .02
+
 @export var ult_cooldown_time = 10.0  # Cooldown for abilities (including ultimate)
 var can_use_ult = true  # Whether the ability can currently be used
 var current_crater = null  # Stores the current crater instance
 
 #@export var fade_duration = 1.0  # Time for the fade-out effect
+func use_dash(caller, direction):
+	if can_use_dash:
+		can_use_dash = false
+		start_dash(caller, direction)
+		start_dash_cooldown()
 
+func start_dash_cooldown():
+	await get_tree().create_timer(dash_cooldown_time).timeout
+	can_use_dash = true
+
+func start_dash(caller, direction):
+	caller.perform_dash(direction, dash_duration, dash_trail_interval)
 
 func spawn_crater(crater_position):
 	# Remove the previous crater if it exists

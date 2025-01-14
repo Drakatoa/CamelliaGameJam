@@ -11,6 +11,7 @@ const ZOOM_SMOOTHNESS = 5.0  # Higher values make zooming faster
 
 # Shooting constants
 @export var ability_scene = preload("res://Ability.gd") 
+@export var person_direction = ""
 #@export var ultimate_ability_scene = preload("res://ultimate.gd")  # Path to the ultimate ability script
 #var ultimate_ability # Load the Ability script
 @onready var protagonist = $Protagonist
@@ -110,7 +111,6 @@ func _physics_process(delta):
 	# Shooting logic
 	#handshooting.rotation = angle_to_mouse+135
 	var shoot_direction = ""
-	var person_direction = ""
 	var spawn_position
 	if (-PI / 8 <= angle_to_mouse) and (angle_to_mouse < PI / 8):
 	# Right
@@ -220,11 +220,87 @@ func _physics_process(delta):
 		shoot_timer -= delta
 	if Input.is_action_just_pressed("ultimate") and ability.can_use_ult:
 		use_ultimate()
-	if Input.is_action_just_pressed("dash"):
-		use_dash()
+	if Input.is_action_just_pressed("dash") and ability.can_use_dash:
+		ability.use_dash(self, velocity.normalized())
 
-func use_dash():
-	print()
+func get_facing_direction() -> Vector2:
+	match person_direction:
+		"upright":
+			return Vector2(1, -1).normalized()
+		"upleft":
+			return Vector2(-1, -1).normalized()
+		"downright":
+			return Vector2(1, 1).normalized()
+		"downleft":
+			return Vector2(-1, 1).normalized()
+		"up":
+			return Vector2(0, -1)
+		"down":
+			return Vector2(0, 1)
+		"right":
+			return Vector2(1, 0)
+		"left":
+			return Vector2(-1, 0)
+		_:
+			return Vector2(0, 1)
+
+var last_trail = null
+
+func perform_dash(direction, dash_duration, dash_trail_interval):
+	if direction == Vector2.ZERO:
+		direction = get_facing_direction()  # Use facing direction if no input
+
+	# Calculate the total distance to teleport
+	var dash_distance = SPEED * 5 * dash_duration  # Adjust the multiplier as needed
+	var start_position = global_position  # Save starting position
+	var target_position = start_position + (direction * dash_distance)  # End position
+	 # Fade out the character
+	var fade_out_tween = protagonist.create_tween()
+	fade_out_tween.tween_property(protagonist, "modulate:a", 0.0, 0.1)  # Fade out
+	await fade_out_tween.finished  # Wait for fade-out to complete
+
+	# FIGURE OUT THE CAMERA
+	#var camera_tween = $Camera2D.create_tween()
+	#camera_tween.tween_property(
+		#$Camera2D, 
+		#"global_position", 
+		#start_position.lerp(target_position, 1.0), 
+		#dash_duration
+	#)
+
+	# Spawn trails at intervals along the path
+	var total_trails = int(dash_duration / dash_trail_interval)
+	for i in range(total_trails):
+		# Calculate trail position along the path
+		var trail_position = start_position.lerp(target_position, float(i) / total_trails)
+		spawn_dash_trail(trail_position)
+		await get_tree().create_timer(dash_trail_interval).timeout
+
+	# Teleport the character to the final position
+	global_position = target_position
+	# Fade in the character
+	var fade_in_tween = protagonist.create_tween()
+	fade_in_tween.tween_property(protagonist, "modulate:a", 1.0, 0.1)  # Fade in
+	last_trail = null
+
+func spawn_dash_trail(trail_position):
+	# Create a new Sprite2D for the trail
+	var trail = Sprite2D.new()
+	trail.texture = protagonist.sprite_frames.get_frame_texture(protagonist.animation, protagonist.frame)  # Use current frame texture
+	trail.modulate = Color(1, 1, 1, 1)
+	trail.global_position = trail_position  # Position the trail
+	trail.scale = protagonist.scale*2  # Match protagonist's scale
+	get_tree().current_scene.add_child(trail)  # Add trail to the scene
+	
+	if last_trail:
+		last_trail.modulate = Color(1.5, 1.5, 1.5, 1)
+	
+	last_trail = trail
+
+	# Fade out and free the trail
+	var tween = trail.create_tween()
+	tween.tween_property(trail, "modulate:a", 0.0, 0.3)  # Fade duration
+	tween.tween_callback(Callable(trail, "queue_free"))  # Free after fade
 
 func check_shooting(person_direction, shoot_direction, mouse_position):
 	if Input.is_action_pressed("shoot"):
